@@ -66,19 +66,81 @@
       background-size: cover;
   }
 .primary-text{
-
+  font-family: 'Paytone One', sans-serif;
 font-size: 80px;
 font-style: normal;
-font-weight: 600;
+
 text-align: left;
 color: #FFFFFF;
 }
 .secondary-text{
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
-  font-family: Montserrat;
+
   color: #FFFFFF;
 }
 .third-text{
   font-size: 15px;
   color: #FFFFFF;
+}
+.section{
+  height: 2px;
+}
+.section2{
+  background-color:#222222;
+  height: 120vh;
+}
+.btn:hover{
+  color:black;
+}
+/*  */
+.text-header{
+color:  #FFFFFF;
+padding-top: 70px;
+}
+
+.header-text{
+  font-family: 'Paytone One', sans-serif;
+  font-size: 80px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.text-style{
+  color: #2EBAD3;
+  font-size: 25px;
+}
+.vr{
+  color:#8001FB ;
+  width: 3px !important;
+  height: 450px;
+}
+
+/*  */
+.section3{
+  display: flex;
+  background-color: #8001FB;
+ align-items: center;
+  height: 30vh;
+  text-align: center;
+  
+}
+.text-styling{
+  color: #FFFFFF ;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 50px;
+}
+/*  */
+.section4{
+  background-color:#222222;
+  height: 70vh;
+}
+.styling{
+  color: #FFFFFF;
+  
+}
+
+/*  */
+.section6{
+  background-color:#222222;
+  height: 100vh;
 }
