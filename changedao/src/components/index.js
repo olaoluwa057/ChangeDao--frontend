@@ -1,9 +1,9 @@
-import { useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
+
+
 import { Navbar, Container, Row,Button,Col,Stack }from 'react-bootstrap';
 
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer,} from 'react-toastify';
 
 const Home = () => {
  
@@ -43,7 +43,7 @@ const Home = () => {
             </Col>
             
         </Row>
-       <Row style={{marginTop:'10px',width:'800px', marginLeft:'200px', marginTop:'30px'}}>
+       <Row style={{width:'800px', marginLeft:'200px', marginTop:'40px'}}>
        <Col>
        <Button variant="outline-light" style={{width:'200px'}}> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}
     </Col>
@@ -174,59 +174,59 @@ const Home = () => {
         <Container>
               <Row className="mt-5">
                 <Col>
-                <img src="./images/All.png" alt='David All image' />
+                <img src="./images/All.png" alt='David All' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>David All</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Founder,Changemaker </p>
                 </Col>
 
                 <Col>
-                <img src="./images/Hanaya.png" alt='Hanaya Brasali image' />
+                <img src="./images/Hanaya.png" alt='Hanaya Brasali' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Hanaya Brasali</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Community Lead</p>
                 </Col>
 
                 <Col>
-                <img src="./images/Bryan.png" alt='David All image' />
+                <img src="./images/Bryan.png" alt='Bryan Brinkman' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Bryan Brinkman</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Artist Relations</p>
                 </Col>
                 </Row>
                 <Row>
                 <Col>
-                <img src="./images/Dale.png" alt='David All image' />
+                <img src="./images/Dale.png" alt='Stephanie Dale' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Stephanie Dale</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Art Director, Designer </p>
                 </Col>
 
                 <Col>
-                <img src="./images/Dinkleman.png" alt='Hanaya Brasali image' />
+                <img src="./images/Dinkleman.png" alt='Jeff Dinkelman' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Jeff Dinkelman</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Full-Stack Developer</p>
                 </Col>
 
                 <Col>
-                <img src="./images/Kelsey.png" alt='David All image' />
+                <img src="./images/Kelsey.png" alt='Kelsey Driscoll' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Kelsey Driscoll</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Changemaker Lead</p>
                 </Col>
                 </Row>
                 <Row>
                 <Col>
-                <img src="./images/Morrison.png" alt='David All image' />
+                <img src="./images/Morrison.png" alt='Kay Morrison' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Kay Morrison</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Operations Lead</p>
                 </Col>
 
                 <Col>
-                <img src="./images/Upapong.png" alt='Hanaya Brasali image' />
+                <img src="./images/Upapong.png" alt='JPeter Upapong' />
                 <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>JPeter Upapong</p>
                 <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Platform Lead</p>
                 </Col>
                 
                 <Col className='visibility'>
-                <img src="./images/All.png" alt='Hanaya Brasali image' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>JPeter Upapong</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Platform Lead</p>
+                <img src="./images/.png" alt='...' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}></p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}></p>
                 </Col>
                 </Row>
           </Container>
@@ -253,7 +253,7 @@ const Home = () => {
             </Col>
             <Col > 
               <Button variant="primary" className="btn-color2 " style={{width:'200px'}}>Get Email Updates</Button>{' '}
-            </Col>
+              </Col>
       </Row>
     </Col>
    </Row>
@@ -306,6 +306,8 @@ const Home = () => {
 
 
     </div>
+
+
      
   
   )
