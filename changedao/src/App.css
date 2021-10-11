@@ -38,7 +38,7 @@
 }
 /* Nav.js */
 .Nav{
-  background-color: 1F1F1F !important;
+  background-color: #1F1F1F !important;
 }
 
 .btn-color{
@@ -141,6 +141,51 @@ padding-top: 70px;
 
 /*  */
 .section6{
-  background-color:#222222;
+  background-color:#1F1F1F ;
   height: 100vh;
+}
+
+/*  */
+.section7{
+
+  display: flex;
+ align-items: center;
+  background-color: #222222;
+  height: 180vh;
+  flex-direction: column;
+}
+.color-white{
+  color: #FFFFFF;
+}
+.visibility{
+  visibility: hidden;
+}
+
+
+/*  */
+.section8{
+  display: flex;
+  background-image: url(./components/images/Footer.png);
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+text-align: center;
+align-items: center;
+}
+.btn-color2{
+  color: black;
+  background-color: white;
+}
+.sectionDiv{
+  background-color:#222222;
+  height: 10vh;
+
+}
+/*  */
+.footer{
+  background-color: #313131;
+  height: 50vh;
+  
 }

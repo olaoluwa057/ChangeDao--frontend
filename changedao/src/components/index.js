@@ -165,7 +165,147 @@ const Home = () => {
   </Row>
 </Container>
    </div>
+
+      {/*New section*/}
+    <div className='section7'>
+      <h1 className='text-head color-white mt-5' >Meet the Core Team </h1>
+      <span className='color-white' style={{ fontStyle:'italic'}}>Public, Proven and Trusted</span>
+      <div>
+        <Container>
+              <Row className="mt-5">
+                <Col>
+                <img src="./images/All.png" alt='David All image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>David All</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Founder,Changemaker </p>
+                </Col>
+
+                <Col>
+                <img src="./images/Hanaya.png" alt='Hanaya Brasali image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Hanaya Brasali</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Community Lead</p>
+                </Col>
+
+                <Col>
+                <img src="./images/Bryan.png" alt='David All image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Bryan Brinkman</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Artist Relations</p>
+                </Col>
+                </Row>
+                <Row>
+                <Col>
+                <img src="./images/Dale.png" alt='David All image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Stephanie Dale</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Art Director, Designer </p>
+                </Col>
+
+                <Col>
+                <img src="./images/Dinkleman.png" alt='Hanaya Brasali image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Jeff Dinkelman</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Full-Stack Developer</p>
+                </Col>
+
+                <Col>
+                <img src="./images/Kelsey.png" alt='David All image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Kelsey Driscoll</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Changemaker Lead</p>
+                </Col>
+                </Row>
+                <Row>
+                <Col>
+                <img src="./images/Morrison.png" alt='David All image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Kay Morrison</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Operations Lead</p>
+                </Col>
+
+                <Col>
+                <img src="./images/Upapong.png" alt='Hanaya Brasali image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>JPeter Upapong</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Platform Lead</p>
+                </Col>
+                
+                <Col className='visibility'>
+                <img src="./images/All.png" alt='Hanaya Brasali image' />
+                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>JPeter Upapong</p>
+                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Platform Lead</p>
+                </Col>
+                </Row>
+          </Container>
+          <p style={{fontSize:'30px', fontStyle:'italic', color:'white', textAlign:'center' ,marginTop:'15px'}}> Find us all on Discord!
+          <Button variant="outline-light" style={{marginLeft:'20px'}} >  <img src="./discord.png" style={{ width:'1.2rem'}} className="" alt='Discord logo'></img></Button>{' '}
+          </p>
+          
       </div>
+    
+    </div>
+
+    <div className='section8'>
+    <Row className="justify-content-md-center mx-auto" >
+      <Col md="auto">
+          <h4 className='text-styling'style={{fontWeight:'bold'}}>Let’s Connect IRL at NFT.nyc</h4>
+          <p style={{fontSize:'25px', fontWeight:'lighter'}} className='color-white'>But you can join our story today. </p>
+
+        <Row className='mt-5'>
+            <Col>
+              <Button variant="outline-light" style={{width:'200px'}}> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}
+            </Col>
+            <Col >
+            <Button variant="outline-light" style={{width:'200px'}}>  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='twitter logo'></img>Twitter</Button>{' '}
+            </Col>
+            <Col > 
+              <Button variant="primary" className="btn-color2 " style={{width:'200px'}}>Get Email Updates</Button>{' '}
+            </Col>
+      </Row>
+    </Col>
+   </Row>
+  </div>
+  <div className='sectionDiv'/>
+
+  <div className='footer'>
+    <Container>
+    <Stack direction="horizontal" gap={3} >
+  <div  className='mt-5'>
+  <Navbar.Brand href="#home">
+      <img
+        src="/logo.png"
+        width="170"
+        height="70"
+        className="d-inline-block align-top"
+        alt="React Bootstrap logo"
+      />
+    </Navbar.Brand>
+    <div style={{marginLeft:'25px'}}>
+    <Button variant="outline-light" style={{width:'170px'}}>About Us</Button>{' '}
+    </div>
+  </div>
+  <div className='ms-auto mt-5'>  <Button variant="primary" className="btn-color  " style={{width:'200px'}}>Get Email Updates</Button>{' '}</div>
+  <div className="mt-5"> <Button variant="outline-light" style={{width:'200px'}}> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}</div>
+  <div className="mt-5"> <Button variant="outline-light" style={{width:'200px'}}> <img src="./twitter.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Twitter logo'></img>Twitter</Button>{' '}</div>
+</Stack>
+
+<div className="section" style={{marginTop:'25px'}}>
+      <ColoredLine color='#FFFFFF' style={{height:'0.5px !important'}}/>
+      </div>
+
+    <Stack direction="horizontal" gap={3}>
+  <div className="color-white mt-5" style={{fontSize:'smaller'}}>© Copyright 2021 Mount Change LLC. All rights reserved.</div>
+  <div className="color-white ms-auto mt-5" style={{fontSize:'smaller'}}>Privacy</div>
+  <div className="color-white mt-5" style={{fontSize:'smaller'}}>Terms</div>
+</Stack>
+    </Container>
+ 
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+    </div>
      
   
   )
