@@ -43,14 +43,14 @@ const Home = () => {
             </Col>
             
         </Row>
-       <Row style={{width:'800px', marginLeft:'200px', marginTop:'40px'}}>
+       <Row style={{width:'800px', marginLeft:'200px', marginTop:'40px'}} className='con'>
        <Col>
-       <Button variant="outline-light" style={{width:'200px'}}> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}
+       <Button variant="outline-light" style={{width:'200px'}} className="btn1"> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}}  alt='Discord logo'></img>Discord</Button>{' '}
     </Col>
     <Col >
-    <Button variant="outline-light" style={{width:'200px'}}>  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='twitter logo'></img>Twitter</Button>{' '}
+    <Button variant="outline-light" style={{width:'200px'}} className="btn1" >  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1rem'}} alt='twitter logo'></img>Twitter</Button>{' '}
     </Col>
-    <Col >   <Button variant="primary" className="btn-color " style={{width:'200px'}}>Get Email Updates</Button>{' '}
+    <Col >   <Button variant="primary" className="btn-color btn1 " style={{width:'200px'}}>Get Email Updates</Button>{' '}
     </Col>
        </Row>
         </Container>
@@ -64,7 +64,7 @@ const Home = () => {
       <div className="section2" >
       <Container>
       <h1 className='text-header col-md-7 mx-auto'>We’re Introducing Triple P NFTs</h1>
-      <Row className='mt-5'>
+      <Row className='mt-5 cont'>
       <Col>
       <div className='header-text'>
       PEOPLE
@@ -76,12 +76,12 @@ const Home = () => {
         community about the cause you care about with your art. Create change, start a movement.</p>
       </Col>
       
-      <Col>
+      <Col className='con2'>
       <div className="vr"/>
       </Col>
      
     
-      <Col>
+      <Col className='con2'>
       <div className='header-text'>
       PROFIT
       </div>
@@ -91,7 +91,7 @@ const Home = () => {
       <p style={{color:'white', width:'300px'}} className='mt-5'>Our smart contracts are unique to the Changemaker — and to each individual project. Changemakers determine how revenue from sales is distributed. And our platform fees are lower than you think.</p>
       </Col>
         
-      <Col>
+      <Col className='con2'>
       <div className="vr"/>
       </Col>
       <Col>
@@ -101,7 +101,7 @@ const Home = () => {
       <div className='text-style' style={{width:'300px'}}>
       Reduce and offset
       </div>
-      <p style={{color:'white', width:'300px'}} className='mt-5'>We’re taking sustainability head-on, crafting quality code that reduces overall energy consumption. And ChangeDAO will acquire carbon offsets to cover what little energy we do use to bring change to life.</p>
+      <p style={{color:'white', width:'300px'}} className='mt-5 padding'>We’re taking sustainability head-on, crafting quality code that reduces overall energy consumption. And ChangeDAO will acquire carbon offsets to cover what little energy we do use to bring change to life.</p>
       </Col>
       </Row>
 
@@ -159,7 +159,7 @@ const Home = () => {
 </div>
 </Stack>
     </Col>
-    <Col style={{marginTop:'120px'}}>
+    <Col style={{marginTop:'120px'}} className='ChangeDao-Journey'>
     <img src="./SplitPay.png" style={{ width:'100%'}} className="" alt='ChangeDao-Journey'></img>
     </Col>
   </Row>
@@ -171,72 +171,92 @@ const Home = () => {
       <h1 className='text-head color-white mt-5' >Meet the Core Team </h1>
       <span className='color-white' style={{ fontStyle:'italic'}}>Public, Proven and Trusted</span>
       <div>
-        <Container>
-              <Row className="mt-5">
-                <Col>
-                <img src="./images/All.png" alt='David All' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>David All</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Founder,Changemaker </p>
-                </Col>
+     
 
-                <Col>
-                <img src="./images/Hanaya.png" alt='Hanaya Brasali' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Hanaya Brasali</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Community Lead</p>
-                </Col>
 
-                <Col>
-                <img src="./images/Bryan.png" alt='Bryan Brinkman' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Bryan Brinkman</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Artist Relations</p>
-                </Col>
-                </Row>
-                <Row>
-                <Col>
-                <img src="./images/Dale.png" alt='Stephanie Dale' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Stephanie Dale</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Art Director, Designer </p>
-                </Col>
+        <div class="wrapper-grid">
+        <div class="containe ">
+  
+      <img src='./images/All.png' alt='profile ' class="profile-img"/>
+      <h1 class="name color-white">David All </h1>
+      <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Founder,Changemaker </p>
+      
+   
+    </div>
+    <div class="containe">
+  
+  <img src="./images/Hanaya.png" alt='Hanaya Brasali' class="profile-img"/>
+  <h1 class="name color-white">Hanaya Brasali</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Community Lead </p>
+  
 
-                <Col>
-                <img src="./images/Dinkleman.png" alt='Jeff Dinkelman' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Jeff Dinkelman</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Full-Stack Developer</p>
-                </Col>
+</div>
+<div class="containe">
+  
+  <img src="./images/Bryan.png" alt='Bryan Brinkman' class="profile-img"/>
+  <h1 class="name color-white">Bryan Brinkmani</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>NFT Artist Relationsd </p>
+  
 
-                <Col>
-                <img src="./images/Kelsey.png" alt='Kelsey Driscoll' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Kelsey Driscoll</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Changemaker Lead</p>
-                </Col>
-                </Row>
-                <Row>
-                <Col>
-                <img src="./images/Morrison.png" alt='Kay Morrison' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>Kay Morrison</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>Operations Lead</p>
-                </Col>
+</div>
+<div class="containe">
+  
+  <img  src="./images/Dinkleman.png" alt='Jeff Dinkelman' class="profile-img"/>
+  <h1 class="name color-white">Jeff Dinkelma</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Full-Stack Developer </p>
 
-                <Col>
-                <img src="./images/Upapong.png" alt='JPeter Upapong' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}>JPeter Upapong</p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}>NFT Platform Lead</p>
-                </Col>
-                
-                <Col className='visibility'>
-                <img src="./images/.png" alt='...' />
-                <p style={{fontWeight:'bold', color:'white', textAlign:'center'}}></p>
-                <p style={{color: 'white', fontWeight:'lighter', textAlign:'center', marginTop:'-15px'}}></p>
-                </Col>
-                </Row>
-          </Container>
+</div>
+<div class="containe">
+  
+  <img src="./images/Kelsey.png" alt='Kelsey Driscoll' class="profile-img"/>
+  <h1 class="name color-white">Kelsey Driscol</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Changemaker Lead</p>
+  
+
+</div>
+<div class="containe">
+  
+  <img src="./images/Morrison.png" alt='Kay Morrison' class="profile-img" />
+  <h1 class="name color-white">Kay Morrisoni</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Operations Lead </p>
+
+</div>
+<div class="containe">
+  
+  <img src="./images/Upapong.png" alt='JPeter Upapong' class="profile-img" />
+  <h1 class="name color-white">JPeter Upapong</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> NFT Platform Lead </p>
+
+  
+
+</div>
+<div class="containe visibility">
+  
+  <img src="./images/Morrison.png" alt='Kay Morrison'  class="profile-img"/>
+  <h1 class="name color-white">Hanaya Brasali</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Community Lead </p>
+
+  
+
+</div>
+
+
+        </div>
+
+
+             
+
+ 
           <p style={{fontSize:'30px', fontStyle:'italic', color:'white', textAlign:'center' ,marginTop:'15px'}}> Find us all on Discord!
           <Button variant="outline-light" style={{marginLeft:'20px'}} >  <img src="./discord.png" style={{ width:'1.2rem'}} className="" alt='Discord logo'></img></Button>{' '}
           </p>
           
       </div>
-    
+  
     </div>
+    
+
+
 
     <div className='section8'>
     <Row className="justify-content-md-center mx-auto" >
@@ -277,7 +297,7 @@ const Home = () => {
     <Button variant="outline-light" style={{width:'170px'}}>About Us</Button>{' '}
     </div>
   </div>
-  <div className='ms-auto mt-5'>  <Button variant="primary" className="btn-color  " style={{width:'200px'}}>Get Email Updates</Button>{' '}</div>
+  <div className='ms-auto mt-5 resize'>  <Button variant="primary" className="btn-color  " style={{width:'200px'}}>Get Email Updates</Button>{' '}</div>
   <div className="mt-5"> <Button variant="outline-light" style={{width:'200px'}}> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}</div>
   <div className="mt-5"> <Button variant="outline-light" style={{width:'200px'}}> <img src="./twitter.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Twitter logo'></img>Twitter</Button>{' '}</div>
 </Stack>

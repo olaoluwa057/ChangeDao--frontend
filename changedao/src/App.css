@@ -132,7 +132,10 @@ padding-top: 70px;
 /*  */
 .section4{
   background-color:#222222;
-  height: 70vh;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .styling{
   color: #FFFFFF;
@@ -142,7 +145,10 @@ padding-top: 70px;
 /*  */
 .section6{
   background-color:#1F1F1F ;
-  height: 100vh;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 
 /*  */
@@ -151,8 +157,11 @@ padding-top: 70px;
   display: flex;
  align-items: center;
   background-color: #222222;
-  height: 180vh;
+  height: auto;
   flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
 }
 .color-white{
   color: #FFFFFF;
@@ -189,3 +198,167 @@ align-items: center;
   height: 50vh;
   
 }
+
+
+
+.wrapper-grid {
+  display: grid;
+  grid-template-areas: 
+  "a b c"
+   "a b c"
+   "a b c";
+  justify-content: center;
+}
+
+.containe {
+  overflow: hidden;
+
+  text-align: center;
+ 
+  position: relative;
+  margin: 0.5rem;
+
+}
+
+.profile-img {
+  width: 100%;
+  margin-top: 1.7rem;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 0.4rem;
+}
+
+.description {
+  margin: 0.4rem 1rem;
+  font-size: 0.9rem;
+}
+
+
+
+
+
+/*  */
+@media (max-width: 576px) { 
+
+  .btn-color{
+    width: 150px;
+  } 
+/* index.js */
+  .primary-text{
+    font-family: 'Paytone One', sans-serif;
+    margin-top: -1px !important;
+  font-size: 60px;
+  font-style: normal;
+  
+  text-align: left;
+  color: #FFFFFF;
+  }
+
+  .secondary-text{
+    margin-top: -1px !important;
+  }
+  .third-text{
+    margin-top: -20px;
+  }
+  .con{
+    display: flex;
+    flex-direction: row;
+    width: 300px !important ;
+    margin-left: 50px !important;
+  
+   
+  }
+  .btn1{
+    margin-top: 10px;
+  }
+  .section2{
+    background-color:#222222;
+    height: auto;
+    text-align: center;
+    
+  }
+  .vr{
+    display: none;
+    visibility: hidden;
+  }
+  .cont{
+    margin-left: 8px;
+  }
+  .con2{
+    display: none;
+    visibility: hidden;
+  }
+  .padding{
+    margin-bottom: 30px;
+  }
+
+  .ChangeDao-Journey{
+    display: none;
+    visibility: hidden;
+
+  }
+  .name-control{
+    margin-left: 20px;
+  }
+
+  .img-siz{
+    width: 150px;
+    height: 150px;
+  }
+
+  .wrapper-grid2 {
+    display: grid;
+    grid-template-areas: 
+    repeat( auto-fit,
+    "a b c"
+     "a b c"
+     "a b c") !important;
+    justify-content: center;
+  }
+  
+.profile-img {
+  width: 100%;
+  margin-top: 1.7rem;
+}
+.resize{
+  width: 1rem !important;
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-areas: 
+    repeat( auto-fit,
+    "a b c"
+     "a b c"
+     "a b c") !important;
+    justify-content: center;
+  }
+
+  .description {
+    margin: 0.4rem 1rem;
+    font-size: 0.6rem;
+    margin-left: -2px;
+  }
+  
+ }
+
+@media (max-width: 992px) {
+
+  .wrapper-grid {
+    display: grid;
+    grid-template-areas: 
+    repeat( auto-fit,
+    "a b c"
+     "a b c"
+     "a b c") !important;
+    justify-content: center;
+  }
+} 
