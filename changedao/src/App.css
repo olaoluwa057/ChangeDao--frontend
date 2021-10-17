@@ -36,6 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  height:100%;
+  width: 100%;
+  margin: 0;
+  padding: 5px;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  overflow-y: scroll;
+
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #8001FB;
+}
+
+
+
+
+  
+ 
+  
+
+  
+ 
+
+
+
+
+
 /* Nav.js */
 .Nav{
   background-color: #1F1F1F !important;
@@ -58,62 +100,117 @@
   }
 /* index.js */
   .bg-landing {
-      background-image: url('./components/images/bg.jpg');
+    display: flex;
+      background-image: url('./components/images/bg.gif');
       width: 100%;
-      height: 120vh;
+      height: auto;
       background-position: center;
       background-repeat:no-repeat;
       background-size: cover;
+      justify-content: center;
+      align-content: center;
+      padding: 30px;
+      
+  }
+ .position{
+      display: flex;
+      flex-direction: column;
+      
+  }
+  .center{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    
+   
+    
+    
+   
+  }
+  .box{
+    display: flex;
+    width: 70% !important;
+    justify-content: space-between;
+    flex-direction: row; 
   }
 .primary-text{
-  font-family: 'Paytone One', sans-serif;
-font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size:6vw;
 font-style: normal;
-
-text-align: left;
 color: #FFFFFF;
+margin-top: 50px;
+font-weight: 700;
+align-self: flex-end;
+}
+.primary-txt{
+  align-self: flex-start;
+  width: 100%;
 }
 .secondary-text{
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 25px;
-
+  font-family: 'Montserrat', sans-serif;
+  font-size:2vw;
+  font-weight: 500;
   color: #FFFFFF;
 }
 .third-text{
-  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
   color: #FFFFFF;
+  font-weight: 400;
+
 }
 .section{
   height: 2px;
 }
 .section2{
   background-color:#222222;
-  height: 120vh;
+  height: auto;
+  padding: 40px;
+  
 }
-.btn:hover{
-  color:black;
-}
+
 /*  */
 .text-header{
 color:  #FFFFFF;
-padding-top: 70px;
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+align-items: center;
+margin-bottom: 40px;
+font-size: 3vw;
 }
 
 .header-text{
-  font-family: 'Paytone One', sans-serif;
-  font-size: 80px;
+  font-family: 'Montserrat', sans-serif;
   text-align: left;
   color: #FFFFFF;
+  font-weight: 700;
+  font-size: 6vw;
 }
 .text-style{
   color: #2EBAD3;
-  font-size: 25px;
+   font-size: 2vw;
+  
 }
-.vr{
-  color:#8001FB ;
-  width: 3px !important;
-  height: 450px;
+
+
+.border-left{
+  border-right: 5px solid #8001FB;
+  border-spacing: 15px;
+  border-collapse: separate;
+
+ 
+  
+  
 }
+
+.cons{
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+
 
 /*  */
 .section3{
@@ -192,10 +289,26 @@ align-items: center;
   height: 10vh;
 
 }
+
+.order{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.arrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  align-items: flex-end;
+  padding: 10px;
+}
 /*  */
 .footer{
   background-color: #313131;
-  height: 50vh;
+  height: auto;
+  padding: 30px;
   
 }
 
@@ -240,22 +353,24 @@ align-items: center;
 
 
 
+
+
 /*  */
 @media (max-width: 576px) { 
 
-  .btn-color{
-    width: 150px;
-  } 
-/* index.js */
-  .primary-text{
-    font-family: 'Paytone One', sans-serif;
-    margin-top: -1px !important;
-  font-size: 60px;
-  font-style: normal;
+
+
   
-  text-align: left;
-  color: #FFFFFF;
+
+  .center{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    flex-direction: row;
+  
   }
+/* index.js */
+  
 
   .secondary-text{
     margin-top: -1px !important;
@@ -263,37 +378,35 @@ align-items: center;
   .third-text{
     margin-top: -20px;
   }
-  .con{
-    display: flex;
-    flex-direction: row;
-    width: 300px !important ;
-    margin-left: 50px !important;
-  
-   
-  }
-  .btn1{
-    margin-top: 10px;
-  }
+ 
+ 
   .section2{
     background-color:#222222;
     height: auto;
     text-align: center;
-    
+    padding: 15px;
+
   }
-  .vr{
+
+  .header-text{
+    text-align: center;
+    width: 100% !important;
+  }
+  .border-left{
     display: none;
     visibility: hidden;
   }
   .cont{
     margin-left: 8px;
   }
-  .con2{
-    display: none;
-    visibility: hidden;
+  .cons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+   
   }
-  .padding{
-    margin-bottom: 30px;
-  }
+
 
   .ChangeDao-Journey{
     display: none;
@@ -323,15 +436,71 @@ align-items: center;
   width: 100%;
   margin-top: 1.7rem;
 }
-.resize{
-  width: 1rem !important;
+
+.text-style{
+  color: #2EBAD3;
+  
+   text-align: center !important;
 }
+
+
+
+.btn1 {
+   
+  width:40vw !important;
+  font-size: 10px !important;
+
+  }
+
+  .box{
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    flex-direction: row; 
+  }
+
+  .btn-color{
+    width: 50vw;
+    font-size: 10px !important;
+  }
+
+  .arrange{
+    flex-direction: column;
+    justify-content: flex-start;
+
+  }
+  .nb{
+    margin-bottom: 10px !important;
+  }
+
+  .p-tag{
+    width: 300px !important;
+    font-size: 17px !important;
+  }
 
 }
 
 
 @media (max-width: 768px) {
 
+  .box{
+    display: flex;
+    width: 100% !important;
+    justify-content: space-between;
+    flex-direction: row; 
+  }
+  .btn1 {
+   
+    width:20.9vw !important;
+    font-size: 10px !important;
+  
+    }
+
+    
+  .btn-color{
+    width: 30vw !important;
+    font-size: 10px !important;
+  }
   .wrapper-grid {
     display: grid;
     grid-template-areas: 
@@ -347,6 +516,24 @@ align-items: center;
     font-size: 0.6rem;
     margin-left: -2px;
   }
+
+  .text-style{
+    color: #2EBAD3;
+     text-align: center !important;
+     align-self: center !important;
+    
+  }
+
+  .header-text{
+    text-align: center;
+    width: 300px;
+  }
+
+  .p-tag{
+    width: 300px;
+    font-size: 50px;
+  }
+    
   
  }
 
@@ -360,5 +547,9 @@ align-items: center;
      "a b c"
      "a b c") !important;
     justify-content: center;
+  }
+
+  .header-text{
+    text-align: center;
   }
 } 
