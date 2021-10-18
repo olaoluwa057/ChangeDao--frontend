@@ -28,20 +28,15 @@ const Home = () => {
       
       <ToastContainer />
  
-    
+  {/*Landing Page section Hero page... */}    
 
       <div className='bg-landing position '>
- 
-
-
-
 
         <Row className='primary-txt'>
             <Col className='primary-text '>
                     <div>NFTs AS A</div> <div> FORCE FOR CHANGE</div>
             </Col>
         </Row>
-
 
         <Row className='primary-txt'>
             <Col className='secondary-text'>
@@ -55,36 +50,36 @@ const Home = () => {
                     <div> JOIN OUR STORY + STAY CONNECTED </div>
            
         </div>
-       <div style={{marginTop:'5vw'}} className='center box'>
+        <div style={{marginTop:'5vw'}} className='center box'>
        <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
         <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1vw'}} alt='twitter logo'></img>Twitter</Button>{' '}
-      <Button variant="primary" className="btn-color" style={{width:'17vw', whiteSpace:'nowrap'}}>Get Email Updates</Button>{' '}
+      <Button variant="primary" className="btn-width btn-color" style={{width:'17vw', whiteSpace:'nowrap'}}>Get Email Updates</Button>{' '}
    
        </div>
       
 
       </div >
  
-  
+  {/*section division*/}  
 
-
-
-
-
-
-
-      
     
       <div className="section" style={{marginTop:'0'}}>
-      <ColoredLine color='#FFFFFF' style={{height:'0.5px !important'}}/>
+      <ColoredLine color='#FFFFFF' style={{height:'0.5px !important'}}/> {/*this handle white horizontal line */}  
       </div>
 
-      {/*New section*/}
+      {/*People, profile planet section, note that the class border left handles  purple horizonal line*/}
       <div className="section2" >
     
-     <h1 className='text-header col-md-7 mx-auto'>We’re Introducing Triple P NFTs</h1>
+     <h1 className='text-head color-white '>We’re Introducing Triple P NFTs</h1>
+    
+         <div className='justify-content-md-center mx-auto dots'>
+      <span class="dot "></span>
+<span class="dot ml-2 mr-2"></span>
+<span class="dot"></span>
 
-     <div className='cons'>
+      </div>
+
+     <div className='cons mt-5'>
      
 <div style={{ paddingRight:'10px'}}>
  <div className='header-text' >
@@ -116,7 +111,6 @@ const Home = () => {
     
    
   
-
   
   <div className='border-left'>
  </div>
@@ -142,7 +136,8 @@ const Home = () => {
 
       </div>
 
-       {/*New section*/}
+     
+ {/*Join our story section*/}
 
        <div className='section3' >
        <Row className="justify-content-md-center mx-auto" >
@@ -159,10 +154,16 @@ const Home = () => {
      
          <Stack gap={2} className="col-md-12 mx-auto section4" style={{textAlign:'center'}}>
           <div>
-         <h1 className='text-header mt-4' >NFTs as a Force for Change</h1>
+         <h1 className='text-head color-white mt-4' >NFTs as a Force for Change</h1>
+         <div className='justify-content-md-center mx-auto dots'>
+      <span class="dot "></span>
+<span class="dot ml-2 mr-2"></span>
+<span class="dot"></span>
+
+      </div>
        </div>
        <div>
-         <p className='styling mt-3'>
+         <p className='styling mt-5'>
         <span style={{fontWeight:'bold'}}> Changemakers </span> create positive change in the world
          </p>
          <p className='styling ' style={{marginTop:'-10px'}}>
@@ -188,7 +189,7 @@ const Home = () => {
 <p style={{color:'white'}}>Want to get involved? Connect with our team today.</p>
 <div>
 <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
-    <Button variant="primary" className="btn-color " style={{width:'200px'}}>Message Us</Button>{' '}
+    <Button variant="primary" className="btn-color mg-t " style={{width:'200px'}}>Message Us</Button>{' '}
 </div>
 </Stack>
     </Col>
@@ -201,18 +202,28 @@ const Home = () => {
 
       {/*New section*/}
     <div className='section7'>
+     
       <h1 className='text-head color-white mt-5' >Meet the Core Team </h1>
+     
+     
       <span className='color-white' style={{ fontStyle:'italic'}}>Public, Proven and Trusted</span>
+      <div className='justify-content-md-center mx-auto dots'>
+      <span class="dot "></span>
+<span class="dot ml-2 mr-2"></span>
+<span class="dot"></span>
+
+      </div>
       <div>
      
 
 
         <div class="wrapper-grid">
+
         <div class="containe ">
   
-      <img src='./images/All.png' alt='profile ' class="profile-img"/>
+      <img src='./images/All.png' alt='David All ' class="profile-img"/>
       <h1 class="name color-white">David All </h1>
-      <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Founder,Changemaker </p>
+      <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Founder, <br />Changemaker  </p>
       
    
     </div>
@@ -224,21 +235,24 @@ const Home = () => {
   
 
 </div>
+
 <div class="containe">
   
   <img src="./images/Bryan.png" alt='Bryan Brinkman' class="profile-img"/>
-  <h1 class="name color-white">Bryan Brinkmani</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>NFT Artist Relationsd </p>
+  <h1 class="name color-white">Bryan Brinkman</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Artist Relations </p>
   
 
 </div>
+
 <div class="containe">
   
   <img  src="./images/Dinkleman.png" alt='Jeff Dinkelman' class="profile-img"/>
-  <h1 class="name color-white">Jeff Dinkelma</h1>
+  <h1 class="name color-white">Jeff Dinkelman</h1>
   <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Full-Stack Developer </p>
 
 </div>
+
 <div class="containe">
   
   <img src="./images/Kelsey.png" alt='Kelsey Driscoll' class="profile-img"/>
@@ -257,8 +271,8 @@ const Home = () => {
 <div class="containe">
   
   <img src="./images/Upapong.png" alt='JPeter Upapong' class="profile-img" />
-  <h1 class="name color-white">JPeter Upapong</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> NFT Platform Lead </p>
+  <h1 class="name color-white">Peter Upapong</h1>
+  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Platform Lead </p>
 
   
 
@@ -315,7 +329,7 @@ const Home = () => {
             <Button variant="outline-light" style={{width:'200px'}} className='mt-3'>  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='twitter logo'></img>Twitter</Button>{' '}
             </Col>
             <Col > 
-              <Button variant="primary" className="btn-color2 " style={{width:'200px'}} className='mt-3'>Get Email Updates</Button>{' '}
+              <Button variant="primary" className="btn-color2  mt-3" style={{width:'200px'}}>Get Email Updates</Button>{' '}
               </Col>
       </Row>
     </Col>
@@ -323,33 +337,45 @@ const Home = () => {
   </div>
   <div className='sectionDiv'/>
 
+
+
+
+
+
   <div className='footer'>
  
     
   <div  className='order'>
     <div>
-    <Navbar.Brand href="#home">
-      <img
-        src="/logo.png"
-        width="170"
-        height="70"
-        className="d-inline-block align-top"
-        alt="React Bootstrap logo"
-      />
-    </Navbar.Brand>
-    <div style={{marginLeft:'25px'}}>
-    <Button variant="outline-light" style={{width:'170px'}}>About Us</Button>{' '}
-    </div>
+        <Navbar.Brand href="#home">
+          <img
+            src="/logo.png"
+            width="170"
+            height="70"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
+        <div style={{marginLeft:'25px'}}>
+        <Button variant="outline-light" style={{width:'170px'}} className='btn-about'>About Us</Button>{' '}
+        </div>
     </div>
  
-    <div className='arrange'>
-    <div className='mb-5 nb  '>    <Button variant="primary" className="btn-color" style={{width:'17vw', whiteSpace:'nowrap'}}>Get Email Updates</Button>{' '}</div>
-  <div className="mb-5 nb"> <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}</div>
-  <div className="mb-5 nb"> <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1vw'}} alt='twitter logo'></img>Twitter</Button>{' '}</div>
-    </div>
+    <div className='arrange '>
+    <Button variant="primary"  style={{width:'200px',}} className='mt-3 btn-color' >Get Email Updates</Button>{' '}
+  <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1' > <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}
+  <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1' > <img src="./twitter.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Twitter logo'></img>Twitter</Button>{' '}
+  
+  </div>
+  
+
+
+
   </div>
  
   
+    
+     
        
     
 
