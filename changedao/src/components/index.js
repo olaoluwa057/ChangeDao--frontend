@@ -63,12 +63,12 @@ const Home = () => {
   {/*section division*/}  
 
     
-      <div className="section" style={{marginTop:'0'}}>
+      <div className="section " style={{marginTop:'0'}}>
       <ColoredLine color='#FFFFFF' style={{height:'0.5px !important'}}/> {/*this handle white horizontal line */}  
       </div>
 
       {/*People, profile planet section, note that the class border left handles  purple horizonal line*/}
-      <div className="section2" >
+      <div className="section2 pt-5" >
     
      <h1 className='text-head color-white '>We’re Introducing Triple P NFTs</h1>
     
@@ -81,7 +81,7 @@ const Home = () => {
 
      <div className='cons mt-5'>
      
-<div style={{ paddingRight:'10px'}}>
+<div className='width-control'>
  <div className='header-text' >
       PEOPLE
   </div>
@@ -97,7 +97,7 @@ const Home = () => {
   <div className='border-left'>
  </div>
   
-<div style={{paddingLeft:'10px', paddingRight:'10px'}}>
+<div className='extra-pad'>
 
      <div className='header-text' >
       PROFIT
@@ -116,7 +116,7 @@ const Home = () => {
  </div>
 
  
-   <div style={{paddingLeft:'10px'}}>
+   <div className='width-control '>
    
       <div className='header-text'>
        PLANET
@@ -124,7 +124,7 @@ const Home = () => {
       <div className='text-style' style={{width:'100%'}}>
       Reduce and offset
       </div>
-      <p style={{color:'white', width:'100%', fontSize:'1.2vw'}} className='mt-4 p-tag col-md-7 mx-auto'>We’re taking sustainability head-on, crafting quality code that reduces overall energy consumption. And ChangeDAO will acquire carbon offsets to cover what little energy we do use to bring change to life.</p>
+      <p style={{color:'white', width:'100%', fontSize:'1.2vw'}} className='mt-4 p-tag col-md-7 mx-auto pl-2'>We’re taking sustainability head-on, crafting quality code that reduces overall energy consumption. And ChangeDAO will acquire carbon offsets to cover what little energy we do use to bring change to life.</p>
   
      </div>
 
@@ -154,7 +154,7 @@ const Home = () => {
      
          <Stack gap={2} className="col-md-12 mx-auto section4" style={{textAlign:'center'}}>
           <div>
-         <h1 className='text-head color-white mt-4' >NFTs as a Force for Change</h1>
+         <h1 className='text-head color-white mt-5' >NFTs as a Force for Change</h1>
          <div className='justify-content-md-center mx-auto dots'>
       <span class="dot "></span>
 <span class="dot ml-2 mr-2"></span>
@@ -162,7 +162,7 @@ const Home = () => {
 
       </div>
        </div>
-       <div>
+       <div className='mt-5'>
          <p className='styling mt-5'>
         <span style={{fontWeight:'bold'}}> Changemakers </span> create positive change in the world
          </p>
@@ -183,13 +183,13 @@ const Home = () => {
 <Container >
 <Row >
     <Col style={{marginTop:'50px'}}>
-    <Stack  gap={5}>
+    <Stack  gap={5 } className='mgt'>
  <h2 className= 'styling'>Are you a Changemaker? </h2>
  <p style={{color:'white'}}>Changemakers are hand-selected and verified by our core team. They are artists, causes and curators that have a track-record of using NFTs as a force for change in the world</p>
 <p style={{color:'white'}}>Want to get involved? Connect with our team today.</p>
 <div>
-<Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
-    <Button variant="primary" className="btn-color mg-t " style={{width:'200px'}}>Message Us</Button>{' '}
+<Button variant="outline-light" style={{width:'13vw', whiteSpace:'nowrap'}} className="btn1">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
+    <Button variant="primary" className="btn-color mg-t " style={{minWidth:'13vw'}}>Message Us</Button>{' '}
 </div>
 </Stack>
     </Col>
@@ -264,7 +264,7 @@ const Home = () => {
 <div class="containe">
   
   <img src="./images/Morrison.png" alt='Kay Morrison' class="profile-img" />
-  <h1 class="name color-white">Kay Morrisoni</h1>
+  <h1 class="name color-white">Kay Morrison</h1>
   <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Operations Lead </p>
 
 </div>
@@ -329,7 +329,7 @@ const Home = () => {
             <Button variant="outline-light" style={{width:'200px'}} className='mt-3'>  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='twitter logo'></img>Twitter</Button>{' '}
             </Col>
             <Col > 
-              <Button variant="primary" className="btn-color2  mt-3" style={{width:'200px'}}>Get Email Updates</Button>{' '}
+              <Button variant="primary" className="btn-color2 mt-3" style={{width:'200px'}}>Get Email Updates</Button>{' '}
               </Col>
       </Row>
     </Col>
@@ -362,9 +362,9 @@ const Home = () => {
     </div>
  
     <div className='arrange '>
-    <Button variant="primary"  style={{width:'200px',}} className='mt-3 btn-color' >Get Email Updates</Button>{' '}
-  <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1' > <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}
-  <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1' > <img src="./twitter.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Twitter logo'></img>Twitter</Button>{' '}
+   <Button variant="primary"  style={{width:'200px'}} className='mt-3 btn-color ' >Get Email Updates</Button>{' '}
+  <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1 ' > <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Discord logo'></img>Discord</Button>{' '}
+  <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1 ' > <img src="./twitter.png" style={{ width:'1.2rem',marginRight:'1rem'}} className="" alt='Twitter logo'></img>Twitter</Button>{' '}
   
   </div>
   
