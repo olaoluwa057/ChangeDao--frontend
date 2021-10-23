@@ -65,177 +65,14 @@ body{
 
 
 
-
-  
- 
-  
-
-  
- 
-
-
-
-
-
-/* Nav.js */
-.Nav{
-  background-color: #1F1F1F !important;
-}
-
+/* General utility classes */
 .btn-color{
   background-color: #8001FB !important;
   line-break: none !important;
 }
-.textD{
-  background-color: #2081E2 !important;
-  border: none !important;
-   
-  }
-  .CENTER{
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-    
-  }
-/* index.js */
-  .bg-landing {
-    display: flex;
-      background-image: url('./components/images/bg.gif');
-      width: 100%;
-      height: auto;
-      background-position: center;
-      background-repeat:no-repeat;
-      background-size: cover;
-      justify-content: center;
-      align-content: center;
-      padding: 30px;
-      
-  }
- .position{
-      display: flex;
-      flex-direction: column;
-      
-  }
-  .center{
-    display: flex;
-    align-self: center;
-    align-items: center;
-    
-   
-    
-    
-   
-  }
-  .box{
-    display: flex;
-    width: 70% !important;
-    justify-content: space-between;
-    flex-direction: row; 
-  }
-.primary-text{
-  font-family: 'Montserrat', sans-serif;
-  font-size:6vw;
-font-style: normal;
-color: #FFFFFF;
-margin-top: 50px;
-font-weight: 700;
-align-self: flex-end;
-}
-.primary-txt{
-  align-self: flex-start;
-  width: 100%;
-}
-.secondary-text{
-  font-family: 'Montserrat', sans-serif;
-  font-size:2vw;
-  font-weight: 500;
+
+.color-white{
   color: #FFFFFF;
-}
-.third-text{
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5vw;
-  color: #FFFFFF;
-  font-weight: 400;
-
-}
-.section{
-  height: 2px;
-}
-.section2{
-  background-color:#222222;
-  height: auto;
-  padding-left: 30px;
-  padding-right: 30px;
-  padding-bottom: 40px;
-  text-align: center;
-  justify-content: space-evenly !important;
-  
-}
-
-.width-control{
-  width: 25%;
-  padding-left: 15px;
-  padding-right: 15px;
-
-}
-
-.extra-pad{
-margin-left: 1.5vw;
-margin-right: 1.5vw;
-width: 25%;
-}
-
-.mgt{
-
-  margin-top: 70px;
-
-}
-
-/*  */
-.text-header{
-color:  #FFFFFF;
-font-family: 'Montserrat', sans-serif;
-font-weight: 600;
-align-items: center;
-margin-bottom: 40px;
-font-size: 3vw;
-}
-
-.header-text{
-  font-family: 'Montserrat', sans-serif;
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 4.5vw;
-  text-align: left;
-}
-.text-style{
-  color: #2EBAD3;
-   font-size: 1.5vw;
-   text-align: left !important;
-  
-}
-.p-tag{
-  text-align:justify;
- 
-}
-
-
-.border-left{
-  border-right: 5px solid #8001FB;
-  border-spacing: 15px;
-  border-collapse: separate;
-
- 
-  
-  
-}
-
-.cons{
-  display:  flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-
 }
 
 .dot {
@@ -254,9 +91,187 @@ justify-content: space-between !important;
 
 }
 
+.visibility{
+  display: none;
+  visibility: hidden;
+}
 
 
-/*  */
+.btn-color2{
+  color: black;
+  background-color: white;
+}
+ 
+  
+
+  
+ 
+
+
+
+
+
+/* Nav.js */
+.Nav{
+  background-color: #1F1F1F !important;
+}
+
+
+.textD{
+  background-color: #2081E2 !important;
+  border: none !important;
+   
+  }
+  .CENTER{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+  }
+/* index.js */
+
+/* utility classes */
+
+.center{
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+
+
+/* **************************************************************Hero section******************************************************************** */
+  .bg-landing {
+    display: flex;
+      background-image: url('./components/images/bg.gif');
+      width: 100%;
+      height: auto;
+      background-position: center;
+      background-repeat:no-repeat;
+      background-size: cover;
+      justify-content: center;
+      align-content: center;
+      padding: 30px;
+      
+  }
+ .position{
+      display: flex;
+      flex-direction: column;
+      
+  }
+
+  .primary-txt{
+    align-self: flex-start;
+    width: 100%;
+  }
+
+  .primary-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size:6vw;
+  font-style: normal;
+  color: #FFFFFF;
+  margin-top: 50px;
+  font-weight: 700;
+  align-self: flex-end;
+  }
+
+  
+.secondary-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2vw;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.third-text{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  color: #FFFFFF;
+  font-weight: 400;
+
+}
+
+.box{
+  display: flex;
+  width: 70% !important;
+  justify-content: space-between;
+  flex-direction: row; 
+}
+ 
+    
+   
+    
+    
+ 
+/********************** white vertical line***************************/
+
+
+.section{
+  height: 2px;
+}
+
+/***************************************************section s2ction css (3p-section)*********************************************************************/
+.section2{
+  background-color:#222222;
+  height: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 40px;
+  text-align: center;
+  justify-content: space-evenly !important;
+  
+}
+
+.cons{
+  display:  flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
+.width-control{
+  width: 25%;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.extra-pad{
+margin-left: 1.5vw;
+margin-right: 1.5vw;
+width: 25%;
+}
+.header-text{
+  font-family: 'Montserrat', sans-serif;
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 4.5vw;
+  text-align: left;
+}
+.text-style{
+  color: #2EBAD3;
+   font-size: 1.5vw;
+   text-align: left !important;
+  
+}
+.p-tag{
+  text-align:justify;
+ 
+}
+
+.border-left{
+  border-right: 5px solid #8001FB;
+  border-spacing: 15px;
+  border-collapse: separate;
+
+}
+
+
+/************************************************ section 3 join us on discord section************************************************************  */
 .section3{
   display: flex;
   background-color: #8001FB;
@@ -264,15 +279,13 @@ justify-content: space-between !important;
   height: auto;
   padding:50px;
   text-align: center;
- 
-  
 }
 .text-styling{
   color: #FFFFFF ;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 50px;
 }
-/*  */
+/******************************************************************Nft for change section************************************************************/
 .section4{
   background-color:#222222;
   height: auto;
@@ -281,12 +294,8 @@ justify-content: space-between !important;
   padding-bottom: 50px;
   
 }
-.styling{
-  color: #FFFFFF;
-  
-}
 
-/*  */
+/*****************************************************************Are you a change maker**********************************************************  */
 .section6{
   background-color:#1F1F1F ;
   height: auto;
@@ -294,8 +303,12 @@ justify-content: space-between !important;
   padding-right: 10px;
   padding-bottom: 10px;
 }
+.mgt{
+  margin-top: 70px;
+}
 
-/*  */
+
+/*  ************************************************************************Meet the team *********************************************************/
 .section7{
 
   display: flex;
@@ -307,58 +320,6 @@ justify-content: space-between !important;
   padding-right: 10px;
   padding-bottom: 10px;
 }
-.color-white{
-  color: #FFFFFF;
-}
-.visibility{
-  visibility: hidden;
-}
-
-
-/*  */
-.section8{
-  display: flex;
-  background-image: url(./components/images/Footer.png);
-  width: 100%;
-  height: 80vh;
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size: cover;
-text-align: center;
-align-items: center;
-}
-.btn-color2{
-  color: black;
-  background-color: white;
-}
-.sectionDiv{
-  background-color:#222222;
-  height: 10vh;
-
-}
-
-.order{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.arrange{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 55%;
-  align-items: flex-end;
-  padding: 10px;
-}
-/*  */
-.footer{
-  background-color: #313131;
-  height: auto;
-  padding: 30px;
-  
-}
-
 
 
 .wrapper-grid {
@@ -372,21 +333,17 @@ align-items: center;
 
 .containe {
   overflow: hidden;
-  
-
   text-align: center;
- 
   position: relative;
-  margin: 0.5rem;
+  margin: 0.4rem;
 
 }
 
 .profile-img {
-  width: 100%;
+  width: 70%;
   margin-top: 1.7rem;
  height: 70%;
 }
-
 .name {
   font-weight: bold;
   font-size: 0.9rem;
@@ -398,12 +355,52 @@ align-items: center;
 .description {
   margin: 0.4rem 1rem;
   font-size: 0.9rem;
-  
   padding-bottom: 1rem;
   text-align: center;
 }
-.mt-6{
-  margin-bottom:50px !important;
+
+
+
+/**************************************************************** Let's connect IRl section  ***********************************/
+.section8{
+  display: flex;
+  background-image: url(./components/images/Footer.png);
+  width: 100%;
+  height: 80vh;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+text-align: center;
+align-items: center;
+}
+
+/*additional spacing in between section8 amf footer */
+.sectionDiv{
+  background-color:#222222;
+  height: 10vh;
+
+}
+
+
+/* ******************************************************************Footer section ************************************/
+.footer{
+  background-color: #313131;
+  height: auto;
+  padding: 30px;
+  
+}
+.order{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.arrange{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+  align-items: flex-end;
+  padding: 10px;
 }
 
 
@@ -412,31 +409,85 @@ align-items: center;
 
 
 
-/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ////////////////////////////////////////////////////////////// MEDIA QUARY BEGINS/////////////////////////////////////////////////////  */
+
+
+
+
 @media (max-width: 576px) { 
 
 
+/* Utility classes */
 
-  
+.center{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
 
-  .center{
-    display: flex;
-    align-self: center;
-    align-items: center;
-    flex-direction: row;
+}
   
-  }
-/* index.js */
-  
-
+/************************************************************* Media Quary Hero section ****************************************************************/
   .secondary-text{
     margin-top: -1px !important;
   }
   .third-text{
     margin-top: -20px;
   }
+
+  .btn1 {
+   
+    width:40vw !important;
+    font-size: 10px !important;
+  
+    }
+
+    .btn-width{
+      width: 50vw;
+      font-size: 10px !important;
+    }
+
+    .box{
+      display: flex;
+      width: 100% !important;
+      justify-content: space-between;
+      flex-direction: row; 
+    }
  
- 
+ /************************************************media quaty for 3p-section*****************************************/
   .section2{
     background-color:#222222;
     height: auto;
@@ -446,21 +497,6 @@ align-items: center;
 
   }
 
-  .header-text{
-    text-align: center;
-    width: 100% !important;
-    font-size: 7vw;
-
-  }
-
- 
-  .border-left{
-    display: none;
-    visibility: hidden;
-  }
-  .cont{
-    margin-left: 8px;
-  }
   .cons{
     display: flex;
     flex-direction: column;
@@ -469,113 +505,113 @@ align-items: center;
    
   }
 
-
-  .ChangeDao-Journey{
-    display: none;
-    visibility: hidden;
-
-  }
- 
-
-  .img-siz{
-    width: 150px;
-    height: 150px;
-  }
-
-  
-  
-.profile-img {
-  width: 100%;
-  margin-top: 1.7rem;
-  height: 50%;
-}
-
-.text-style{
-  color: #2EBAD3;
-     font-size: 4vw;
-   text-align: center !important;
-}
-
-
-
-.btn1 {
-   
-  width:40vw !important;
-  font-size: 10px !important;
-
-  }
-
-  .box{
-    display: flex;
-    width: 100% !important;
-    justify-content: space-between;
-    flex-direction: row; 
-  }
-
-  .btn-width{
-    width: 50vw;
-    font-size: 10px !important;
-  }
-
-  .arrange{
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    padding: 0;
-    
-
-  }
-
-
-  .p-tag{
-    width: 300px !important;
-    font-size: 17px !important;
-    text-align: justify;
-  }
-
-  .order{
-    width: 100% !important;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    
-  }
-  .arrange{
-    width: 100% ;
-   
-  }
-  .nd{
-    margin-top: 10px;
-    margin-bottom: 0px !important;
-  }
-  .mb-6{
-    margin-top: 20px !important;
-  }
-  .btn-about{
-    width: 200px!important;
-    margin-left: -25px !important;
-  }
-
-
-  .section4{
-    background-color:#222222;
-    height: auto;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-  }
-
   .width-control{
     width: 100%;
   } 
   .extra-pad{
     width: 100%;
   }
+
+  .header-text{
+    text-align: center;
+    width: 100% !important;
+    font-size: 7vw;
+
+  }
+
+  .text-style{
+    color: #2EBAD3;
+       font-size: 4vw;
+     text-align: center !important;
+  }
+  
+  .p-tag{
+    width: 300px !important;
+    font-size: 17px !important;
+    text-align: justify;
+  }
+  .border-left{
+    display: none;
+    visibility: hidden;
+  }
+
+  
+/*************************************************************NFT as a Force for change section************************************************/
+
+.section4{
+  background-color:#222222;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/**************************************************************** Are you a change maker************************************************************/
+
+.realign{
+  display: flex;
+  flex-direction: column;
+  order: revert;
+  
+}
+
+
+/******************************************************************Meet the core team****************************************************************/
+
+.name {
+
+  font-size: 0.5rem;
+
+}
+
+.description {
+  text-align: center !important;
+  font-size: 0.5rem;
+  width: 100%;
+}
+.profile-img {
+  width: 50%;
+  margin-top: 1.7rem;
+  height: 70%;
+}
+
+
+
+/************************************************************************ Footer********************************************************************/
+
+
+.order{
+  width: 100% !important;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.btn-about{
+  width: 200px!important;
+  margin-left: -25px !important;
+}
+.arrange{
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  padding: 0;
+  
+}
+.mb-6{
+  margin-top: 20px !important;
+}
+
+ 
 }
 
 
 @media (max-width: 768px) {
 
+/*Index */
+
+
+/*********************************************************************max-width: 768px Hero section************************************************/
   .box{
     display: flex;
     width: 100% !important;
@@ -591,65 +627,17 @@ align-items: center;
     }
 
     
-  .btn-width{
-    width: 30vw !important;
-    font-size: 10px !important;
-  }
-  .wrapper-grid {
-    display: grid;
-    grid-template-areas: 
-    repeat( auto-fit,
-    "a b c"
-    "a b c"
-    "a b c") !important;
-    justify-content: center;
-  }
-
-  .description {
-    margin: 0.4rem 1rem;
-    font-size: 0.6rem;
-    margin-left: -2px;
-  }
-
-  .text-style{
-    color: #2EBAD3;
-     text-align: center !important;
-     align-self: center !important;
-     font-size: 4vw;
-     text-align: center !important; 
-  }
-
-  .header-text{
-    text-align: center;
-    width: 100% !important;
-    font-size: 7vw;
-  }
-
-  .p-tag{
-    width: 300px;
-    font-size: 50px;
-    text-align: justify;
-  }
-
-  .profile-img {
-    width: 100%;
-    margin-top: 1.7rem;
-    height: 50%;
-  }
-
-
-.section4{
-  background-color:#222222;
-  height: auto;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-}
-
-.mgt{
-
-  margin-top: 0px;
-
+    .btn-width{
+      width: 30vw !important;
+      font-size: 10px !important;
+    }
+/**********************************************************3p-section****************************************************/
+.cons{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+ 
 }
 
 .width-control{
@@ -658,98 +646,11 @@ align-items: center;
 .extra-pad{
   width: 100%;
 }
-
- 
-    
-  
- }
-
-@media (max-width: 992px) {
-
-  .wrapper-grid {
-    display: grid;
-    grid-template-areas: 
-    repeat( auto-fit,
-    "a b c"
-     "a b c"
-     "a b c") !important;
-    justify-content: center;
-  }
-
-  .header-text{
-    text-align: center;
-    width: 100% !important;
-    font-size: 7vw;
-  }
-  
-
-  .center{
-    display: flex;
-    align-self: center;
-    align-items: center;
-    flex-direction: row;
-  
-  }
-/* index.js */
-  
-
-  .secondary-text{
-    margin-top: -1px !important;
-  }
-  .third-text{
-    margin-top: -20px;
-  }
- 
- 
-  .section2{
-    background-color:#222222;
-    height: auto;
-    text-align: center;
-    padding: 15px;
-
-  }
-
-  .header-text{
-    text-align: center;
-    width: 100% !important;
-    font-size: 7vw;
-  }
-  .border-left{
-    display: none;
-    visibility: hidden;
-  }
-  .cont{
-    margin-left: 8px;
-  }
-  .cons{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 100%;
-   
-  }
-
-
-  .ChangeDao-Journey{
-    display: none;
-    visibility: hidden;
-
-  }
-
-
-  .img-siz{
-    width: 150px;
-    height: 150px;
-  }
-
-  
-  
-.profile-img {
-  width: 100%;
-  margin-top: 1.7rem;
-  height: 50%;
+.header-text{
+  text-align: center;
+  width: 100% !important;
+  font-size: 7vw;
 }
-
 .text-style{
   color: #2EBAD3;
    text-align: center !important;
@@ -758,7 +659,98 @@ align-items: center;
    text-align: center !important; 
 }
 
+.p-tag{
+  width: 300px;
+  font-size: 50px;
+  text-align: justify;
+}
 
+
+/*************************************************************************NFt as a force of change*************************************************/
+.section4{
+  background-color:#222222;
+  height: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/************************************************************Are you a change maker section****************************************************/
+
+
+.mgt{
+
+  margin-top: 0px;
+
+}
+
+/*************************************************************Meet the team**********************************************************************/
+
+
+.description {
+  margin: 0.4rem 1rem;
+  font-size: 0.6rem;
+  margin-left: -2px;
+}
+
+.profile-img {
+  width: 70%;
+  margin-top: 1.7rem;
+  height: 50%;
+}
+
+
+
+  
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 992px) {
+
+ 
+  
+  
+
+  
+/* index.js */
+
+  
+/* Utility classes */
+
+.center{
+  display: flex;
+  align-self: center;
+  align-items: center;
+  flex-direction: row;
+
+}
+  
+/*************************************************************** max-width: 992px Hero section**********************************************************/
+  .secondary-text{
+    margin-top: -1px !important;
+  }
+  .third-text{
+    margin-top: -20px;
+  }
+
+  
 .btn1 {
    
   width:40vw !important;
@@ -778,14 +770,57 @@ align-items: center;
     font-size: 10px !important;
   }
 
- 
+/******************************3p-section**************************************************************/
+  .section2{
+    background-color:#222222;
+    height: auto;
+    text-align: center;
+    padding: 15px;
 
+  }
+
+  .cons{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+   
+  }
+
+
+  .width-control{
+    width: 100%;
+  } 
+  .extra-pad{
+    width: 100%;
+  }
+  .header-text{
+    text-align: center;
+    width: 100% !important;
+    font-size: 7vw;
+  }
+ 
+  .text-style{
+    color: #2EBAD3;
+     text-align: center !important;
+     align-self: center !important;
+     font-size: 4vw;
+     text-align: center !important; 
+  }
+  
   .p-tag{
     width: 300px !important;
     font-size: 17px !important;
     text-align: justify;
   
 } 
+.border-left{
+  display: none;
+  visibility: hidden;
+}
+ 
+ 
+ /**************************************************************Nft as a force for change***************************************************************/
 
 .section4{
   background-color:#222222;
@@ -793,19 +828,14 @@ align-items: center;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
-}
+} 
+
+
+
+/*************************************************************************** Are you a change maker************************************************/
 
 .mgt{
-
   margin-top: 0px;
-
 }
-
-.width-control{
-  width: 100%;
-} 
-.extra-pad{
-  width: 100%;
-}
-
+  
 }

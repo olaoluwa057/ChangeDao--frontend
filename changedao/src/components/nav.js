@@ -28,7 +28,7 @@ const NavBar=  (props) => {
         width="170"
         height="70"
         className="d-inline-block align-top"
-        alt="React Bootstrap logo"
+        alt="ChangeDao logo"
       />
     </Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
