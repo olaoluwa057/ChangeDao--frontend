@@ -1,0 +1,16 @@
+/* Nav.js */
+.Nav{
+    background-color: #1F1F1F !important;
+  }
+  
+  
+  .textD{
+    background-color: #2081E2 !important;
+    border: none !important;
+     
+    }
+    .CENTER{
+      display: flex !important;
+      justify-content: center;
+      align-items: center;
+    }

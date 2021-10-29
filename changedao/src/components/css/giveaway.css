@@ -1,0 +1,244 @@
+/************************************************************************* Root section******************************************************************/
+.giveaway-page{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    padding-top: 30px;
+    background-color:#222222; ;
+    
+    padding-bottom:30px ;
+
+}
+/****************************************************************************Section1*********************************/
+
+.giv-section1{
+    align-self: center;
+    background-color:#222222; ;
+    width: 100%;
+    text-align: center;
+
+}
+
+.giv-aside{
+display: flex;
+flex-direction: column;
+
+    
+  }
+  .giv-vid-styling{
+    width: 50%;
+    height: 50%;
+    align-self: center;
+  }
+ .giv-p-tag{
+    
+    align-self: center;
+  }
+
+/**/
+  .giv-details{
+    display: flex;
+    background-color: #8001FB;
+   align-items: center;
+    height: auto;
+    padding:30px;
+    text-align: center;
+  }
+
+/****************************************************************************Section2************************************************************/
+
+.giv-section2{
+    display: flex;
+    background-color:#222222; ;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.giv-side1{
+width: 40%;
+align-self: flex-start;
+text-align: center;
+}
+.giv-side2{
+    width: 50%;
+    justify-content: flex-start;
+    text-align: justify;
+    }
+    
+
+/****************************************************************************Section3*********************************/
+
+
+
+.giv-box{
+    display: flex;
+    flex-direction: column;
+    background-color: #371E50;
+    padding: 30px;
+ 
+  
+}
+.giv-box2{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding-bottom: 30px;
+    background-color: #371E50;
+   
+    
+
+}
+
+.giv-position{
+    margin-left: -20px;
+
+}
+.giv-twitter-logo{
+    padding-right: 30px;
+}
+
+.giv-twitter-text{
+    display: flex;
+    flex-direction: column;
+
+}
+
+/******************************************************************************************section4***************************/
+
+
+.giv-section4{
+    display: flex;
+    background-color:#222222; ;
+    width: 100%;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    flex-direction: column;
+}
+.giv-submit-h3{
+    width: 100%;
+    text-align: center;
+    
+  
+}
+.giv-section4-sub{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding:'40px';
+    justify-content: space-around;
+
+}
+.giv-aside1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+
+}
+.giv-aside2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.giv-btn1{
+ 
+    background-color: #8001FB !important;
+    
+
+}
+
+
+
+/*********************************************************************************media quary begins*********************************************************/
+
+@media (max-width: 576px) {
+
+    /****************************************************************************Section1*********************************/
+
+.giv-section1{
+    align-self: center;
+    background-color:#222222; ;
+    width: 100%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+
+  .giv-vid-styling{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+  }
+
+  /****************************************************************************Section2************************************************************/
+
+.giv-section2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color:#222222; 
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+
+}
+.giv-side1{
+width: 100%;
+align-self: flex-start;
+text-align: center;
+}
+.giv-side2{
+    width: 100%;
+    justify-content: flex-start;
+    text-align:start;
+    }
+    
+
+/******************************************************************************************section4***************************/
+
+
+
+
+.giv-section4-sub{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding:'40px';
+    justify-content: space-around;
+
+
+
+}
+.giv-aside1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+.giv-aside2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.giv-mgt{
+    margin-top: 27px;
+}
+
+.giv-mgt1{
+    margin-top: 10px !important;
+
+}
+
+
+
+ }
+
+@media (max-width: 768px) {}
+
+@media (max-width: 992px) {}

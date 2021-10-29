@@ -1,0 +1,48 @@
+ /* ******************************************************************Footer section ************************************/
+ .footer{
+    background-color: #313131;
+    height: auto;
+    padding: 30px;
+    
+  }
+  .order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .arrange{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%;
+    align-items: flex-end;
+    padding: 10px;
+  }
+  
+  @media (max-width: 576px) { 
+      /************************************************************************ Footer********************************************************************/
+  
+  
+  .order{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  .btn-about{
+    width: 200px!important;
+    margin-left: -25px !important;
+  }
+  .arrange{
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    padding: 0;
+    
+  }
+  .mb-6{
+    margin-top: 20px !important;
+  }
+  
+  }
