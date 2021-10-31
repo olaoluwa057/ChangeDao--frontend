@@ -32,8 +32,8 @@ return(
         <p className='text-white'> one for each of ChangeDAO’s seven areas of social change.</p>
 
         <h3 className='text-white mt-5'>We’re after your personal story</h3>
-        <p className='text-white mt-5'>We want to hear from individuals anywhere in the world about the</p>
-        <p className='text-white'>social change that you <span style={{fontWeight:'bold'}}> have made </span>or <span style={{fontWeight:'bold'}}>want to make </span> in our world.</p> 
+        <p className='text-white mt-5 format'>We want to hear from individuals anywhere in the world about the</p>
+        <p className='text-white format'> social change that you <span style={{fontWeight:'bold'}}> have made </span>or <span style={{fontWeight:'bold'}}>want to make </span> in our world.</p> 
 
         <h3 className='text-white mt-5'>Seven winners will receive our Genesis NFT.</h3>
 
@@ -70,16 +70,20 @@ return(
 <h3 className="text-greenish">Contest Overview</h3>
 </div>
 <div className='giv-side2 mt-5'>
-<p className="text-white">Seven stories that meet the requirements will be hand-selected</p>
-<p className="text-white">by the ChangeDAO core team to receive the first editions</p>
-<p className='text-white'>of our Genesis NFT: <span style={{fontWeight:'bold'}}> Peace. Love. Art. </span></p>
+<p className="text-white format">Seven stories that meet the requirements will be hand-selected</p>
+<p className="text-white format"> by the ChangeDAO core team to receive the first editions</p>
+<p className='text-white format'>of our Genesis NFT: <span style={{fontWeight:'bold'}}> Peace. Love. Art. </span></p>
 
-<p className='text-white mt-5' style={{fontWeight:'bold'}} > Winners will receive the NFT as an ERC721 airdropped to their</p>
-<p className='text-white ' style={{fontWeight:'bold'}}> designated ethereum wallet address on the ethereum blockchain.</p>
+<p className='visible'></p>
 
-<p className='text-white mt-5'> As NFT holders, these seven storytellers will be some of the first </p>
-<p className='text-white'> members of our community with the potential for their stories to be elevated</p>
-<p className='text-white'>   pitched, and funded as ChangeDAO projects in the future.</p>
+<p className='text-white mt-5 format'style={{fontWeight:'bold'}} > Winners will receive the NFT as an ERC721 airdropped to their</p>
+<p className='text-white format ' style={{fontWeight:'bold'}}> designated ethereum wallet address on the ethereum blockchain.</p>
+
+<p className='visible'></p>
+
+<p className='text-white mt-5 format'> As NFT holders, these seven storytellers will be some of the first </p>
+<p className='text-white format'> members of our community with the potential for their stories to be elevated,</p>
+<p className='text-white format'>   pitched, and funded as ChangeDAO projects in the future.</p>
 
 <p className='text-white mt-5' style={{fontWeight:'bold'}}>Deadline for entries is 12 PM PDT on November 30, 2021</p>
 <p className='text-white'> 
@@ -115,11 +119,11 @@ No entries submitted after the deadline will be considered.
     <li className='text-white' >Health and Wellness</li>
     <li className='text-white' > Education </li>
 </ul>
-
-<p className='text-white mt-5'>2. Create a video submission or testimonial that tells your story, and educates</p>
-<p className='text-white'> and inspires our community about the social change you want to make and</p>
-<p className='text-white'>why it matters. Submissions must abide by the video requirements to be</p>
-<p className='text-white'>  considered.</p>
+<p className='visible'></p>
+<p className='text-white mt-5 format'>2. Create a video submission or testimonial that tells your story, and educates</p>
+<p className='text-white format'> and inspires our community about the social change you want to make and</p>
+<p className='text-white format'> why it matters. Submissions must abide by the video requirements to be</p>
+<p className='text-white format'>  considered.</p>
 
 
 <p className='text-white mt-5'>3. Upload your video to YouTube or Vimeo</p>
@@ -134,9 +138,10 @@ No entries submitted after the deadline will be considered.
 </div>
 
 <h3 className='text-white mt-5' style={{fontWeight:'bold'}}>STEP 2: Share Your Story on Twitter</h3>
-<p className='text-white mt-5'>Grab this Tweet, replace the bracketed information with your story, and post </p>
-<p className='text-white'>  to Twitter:</p>
-<div className='giv-box2'>
+<p className='text-white mt-5 format'>Grab this Tweet, replace the bracketed information with your story, and post </p>
+<p className='text-white format'>  to Twitter:</p>
+<p className='visible'></p>
+<div className='giv-box2 '>
     <div className='giv-twitter-logo'>
     <img
         src="./images/twitter.png"
@@ -156,11 +161,13 @@ No entries submitted after the deadline will be considered.
 </div>
 
 <h3 className='text-white mt-5' style={{fontWeight:'bold'}}>STEP 3: Submit Your Story to ChangeDAO</h3>
-<p className='text-white mt-5'>Complete and submit ChangeDAO's official contest form using this link:</p>
-<p className='text-white'>[insert clickable link] </p>
-<p className='text-white mt-5'>NOTE: To be considered, all contestants must submit BOTH a Tweet (as</p>
-<p className='text-white'> outlined in Step 2) AND an official submission through the ChangeDAO </p>
-<p className='text-white'>website (link above)</p>
+<p className='text-white mt-5'>Complete and submit ChangeDAO's official contest form (see below)</p>
+
+<p className='visible'></p>
+
+<p className='text-white mt-5 format'>NOTE: To be considered, all contestants must submit BOTH a Tweet (as</p>
+<p className='text-white format'> outlined in Step 2) AND an official submission through the ChangeDAO </p>
+<p className='text-white format'> website (form below)</p>
 
 
 <h3 className='text-white mt-5' style={{fontWeight:'bold'}}>Questions?</h3>
@@ -186,7 +193,7 @@ No entries submitted after the deadline will be considered.
      <h3 className='text-white mt-5 ' style={{fontWeight:'bold'}}>Submit Your Story Below</h3>
      </div>
 
-     <Form action="https://getform.io/f/8df1758c-95fd-4083-bce7-251687f53a24" method="POST">
+     <Form action="https://getform.io/f/c4a3921f-4ba4-4261-bec3-4e5992d7adae" method="POST">
      <div className='giv-section4-sub '>
          <div className='giv-aside1 '>
              

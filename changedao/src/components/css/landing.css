@@ -275,8 +275,12 @@
     margin-top: 0.4rem;
     text-align: center;
     width: 100%;
+    
+   
   }
-  
+  .a-link{
+      text-decoration: none;
+  }
   .description {
     margin: 0.4rem 1rem;
     font-size: 0.9rem;

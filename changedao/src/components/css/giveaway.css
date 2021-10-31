@@ -9,7 +9,16 @@
     
     padding-bottom:30px ;
 
+ 
+
 }
+.visible{
+    visibility: hidden;
+    display: none;
+}
+
+
+
 /****************************************************************************Section1*********************************/
 
 .giv-section1{
@@ -166,6 +175,16 @@ text-align: center;
     padding-left: 30px;
     padding-right: 30px;
 
+}
+
+.format{
+    display: inline;
+}
+
+
+.visible{
+    visibility:visible;
+    display: block;
 }
 
 

@@ -14,32 +14,32 @@ const Interest = () => {
      <h3 className='text-white mt-5 ' style={{fontWeight:'bold'}}>Express your interest to learn more about ChangeDAO</h3>
      </div>
 
-     <Form action="https://getform.io/f/8df1758c-95fd-4083-bce7-251687f53a24" method="POST">
+     <Form action="https://getform.io/f/017219ac-e742-44f7-9248-854961bf1ebf" method="POST">
      <div className='giv-section4-sub '>
          <div className='giv-aside1 '>
              
                 <Form.Group as={Col} controlId="formGridEmail">
                 <Form.Label className='text-white'>Your Name (First, Last) or Pseudonym (Anonymous)*</Form.Label>
-                <Form.Control type="text" placeholder="Full Name" name='Interest name'  required/>
+                <Form.Control type="text" placeholder="Full Name" name='name'  required/>
                 </Form.Group>
 
                 <Form.Group as={Col} controlId="formGridEmail" className='mt-4'>
             <Form.Label className='text-white'>Email</Form.Label>
-            <Form.Control type="email" placeholder="Enter email" name='Interest email' required />
+            <Form.Control type="email" placeholder="Enter email" name='email' required />
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridEmail" className='mt-4'>
             <Form.Label className='text-white'>Name of org (if applicable)</Form.Label>
-            <Form.Control type="text" placeholder=""  name='Interest name of org' />
+            <Form.Control type="text" placeholder=""  name='name of org' />
             </Form.Group>
             <Form.Group as={Col} controlId="formGridEmail" className='mt-4'>
             <Form.Label className='text-white'>Twitter handle*</Form.Label>
-            <Form.Control type="text" placeholder="@changemaker"  name='Interest twitterHandle' required/>
+            <Form.Control type="text" placeholder="@changemaker"  name='twitterHandle' required/>
             </Form.Group>
 
             <Form.Group as={Col} controlId="formGridEmail" className='mt-4'>
             <Form.Label className='text-white'>Other social media handles (please specify platform)</Form.Label>
-            <Form.Control type="text" placeholder="" name='Interest other SocialMediaHandle' required/>
+            <Form.Control type="text" placeholder="" name='SocialMediaHandle' required/>
             </Form.Group>
 
               
@@ -49,7 +49,7 @@ const Interest = () => {
         
          <Form.Group controlId="formGridState">
                 <Form.Label className='text-white'>Which team do you want to be connected with: *</Form.Label>
-                <Form.Select defaultValue="Choose..." name="TeamConnect" required>
+                <Form.Select defaultValue="Choose..." name="Team To Connect" required>
                     <option>Select the team you want to connect with</option>
                     <option>Changemakers (Artists, Curators, DAOs, Nonprofit Organizations, Foundations, similar)</option>
                     <option>Sponsors (NFT collectors, Volunteers)</option>
@@ -81,7 +81,7 @@ const Interest = () => {
    <div className='text-center'>
        
    <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1' style={{ textAlign:'center'}}>
-     Submit Your Story
+     Submit
     </Button>{' '}
        </div>
      

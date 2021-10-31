@@ -7,6 +7,7 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveI
  import { NavLink, useHistory } from 'react-router-dom';
 
 
+
 import { ToastContainer,} from 'react-toastify';
 
 const Home = () => {
@@ -56,7 +57,7 @@ const Home = () => {
         <div style={{marginTop:'3vh'}} className='center box'>
        <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1" href="https://discord.gg/mHSnHctCAV">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
         <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1" href="https://twitter.com/ChangeDAO">  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1vw'}} alt='twitter logo'></img>Twitter</Button>{' '}
-      <Button variant="primary" className="btn-width btn-color" style={{width:'17vw', whiteSpace:'nowrap'}}>Get Email Updates</Button>{' '}
+        <NavLink to="/interest"> <Button variant="primary" className="btn-width btn-color" style={{width:'17vw', whiteSpace:'nowrap'}}>Message Us</Button>{' '}</NavLink>
    
        </div>
       
@@ -191,7 +192,7 @@ const Home = () => {
        <div className='section3' >
        <Row className="justify-content-md-center mx-auto" >
       <Col md="auto" >
-      <h4 className='text-styling'>Join Our Story On     <Button variant="outline-light" style={{width:'200px'}}> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Discord logo'></img>Discord</Button>{' '}</h4>
+      <h4 className='text-styling'>Join Our Story On     <Button variant="outline-light" style={{width:'200px'}} href="https://discord.gg/mHSnHctCAV"> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Discord logo'></img>Discord</Button>{' '}</h4>
       </Col>
       </Row>
        </div>
@@ -242,7 +243,7 @@ const Home = () => {
 <p style={{color:'white'}}>Want to get involved? Connect with our team today.</p>
 <div>
 <Button variant="outline-light" style={{width:'13vw', whiteSpace:'nowrap'}} className="btn1 " href="https://discord.gg/mHSnHctCAV">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
-    <Button variant="primary" className="btn-color mg-t " style={{minWidth:'13vw'}} href="/interest">Message Us</Button>{' '}
+<NavLink to="/interest"><Button variant="primary" className="btn-color mg-t " style={{minWidth:'13vw'}} >Message Us</Button>{' '}</NavLink>
 </div>
 </Stack>
     </Col>
@@ -270,61 +271,62 @@ const Home = () => {
 
 
         <div class="wrapper-grid">
-
+      
         <div class="containe ">
   
-      <img src='./images/All.jpg' alt='David All ' class="profile-img"/>
-      <h1 class="name color-white mt-4">David All </h1>
-      <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Founder, <br className="visibility"  />Changemaker  </p>
+        <a href="https://www.linkedin.com/in/davidall" className="a-link"> <img src='./images/All.jpg' alt='David All ' class="profile-img" />    </a>
+        <a href="https://www.linkedin.com/in/davidall" className="a-link">  <h1 class="name color-white mt-4">David All </h1> </a>
+        <a href="https://www.linkedin.com/in/davidall" className="a-link">   <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Founder, <br className="visibility"  />Changemaker  </p></a>
       
    
     </div>
+
     <div class="containe">
   
-  <img src="./images/Hanaya.jpeg" alt='Hanaya Brasali' class="profile-img"/>
-  <h1 class="name color-white mt-4">Hanaya Brasali</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Community Lead </p>
+    <a href="https://www.linkedin.com/in/hanaya-brasali" className="a-link"> <img src="./images/Hanaya.jpeg" alt='Hanaya Brasali' class="profile-img"/></a>
+    <a href="https://www.linkedin.com/in/hanaya-brasali" className="a-link"> <h1 class="name color-white mt-4">Hanaya Brasali</h1></a>
+    <a href="https://www.linkedin.com/in/hanaya-brasali" className="a-link"> <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Community Lead </p></a>
   
 
 </div>
 
 <div class="containe">
   
-  <img src="./images/Bryan.jpg" alt='Bryan Brinkman' class="profile-img"/>
-  <h1 class="name color-white mt-4">Bryan Brinkman</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Artist Relations </p>
+<a href="https://linktr.ee/bryanbrinkman" className="a-link"> <img src="./images/Bryan.jpg" alt='Bryan Brinkman' class="profile-img"/></a>
+<a href="https://linktr.ee/bryanbrinkman" className="a-link"> <h1 class="name color-white mt-4">Bryan Brinkman</h1></a>
+<a href="https://linktr.ee/bryanbrinkman" className="a-link">  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Artist Relations </p></a>
   
 
 </div>
 
 <div class="containe">
   
-  <img  src="./images/Dinkleman.jpg" alt='Jeff Dinkelman' class="profile-img"/>
-  <h1 class="name color-white mt-4">Jeff Dinkelman</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Full-Stack Developer </p>
+<a href="https://github.com/onionpeel" className="a-link"> <img  src="./images/Dinkleman.jpg" alt='Jeff Dinkelman' class="profile-img"/> </a>
+<a href="https://github.com/onionpeel" className="a-link">  <h1 class="name color-white mt-4">Jeff Dinkelman</h1></a>
+<a href="https://github.com/onionpeel"className="a-link"> <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Full-Stack Developer </p></a>
 
 </div>
 
 <div class="containe">
 
-  <img src="./images/Kelsey.jpeg" alt='Kelsey Driscoll' class="profile-img"/>
-  <h1 class="name color-white mt-4">Kelsey Driscoll</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Changemaker Lead</p>
+<a href="https://www.linkedin.com/in/driscollkelsey" className="a-link"> <img src="./images/Kelsey.jpeg" alt='Kelsey Driscoll' class="profile-img"/></a>
+<a href="https://www.linkedin.com/in/driscollkelsey" className="a-link"><h1 class="name color-white mt-4">Kelsey Driscoll</h1></a>
+<a href="https://www.linkedin.com/in/driscollkelsey" className="a-link">  <p class="description" style={{color: 'white', fontWeight:'lighter'}}>Changemaker Lead</p></a>
   
 
 </div>
 <div class="containe">
   
-  <img src="./images/Morrison.jpg" alt='Kay Morrison' class="profile-img" />
-  <h1 class="name color-white mt-4">Kay Morrison</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Operations Lead </p>
+<a href="https://www.linkedin.com/in/kay-morrison-4a5bb913" className="a-link"><img src="./images/Morrison.jpg" alt='Kay Morrison' class="profile-img" /> </a>
+<a href="https://www.linkedin.com/in/kay-morrison-4a5bb913" className="a-link"><h1 class="name color-white mt-4">Kay Morrison</h1></a>
+<a href="https://www.linkedin.com/in/kay-morrison-4a5bb913" className="a-link"> <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Operations Lead </p></a>
 
 </div>
 <div class="containe">
   
-  <img src="./images/Upapong.jpg" alt='JPeter Upapong' class="profile-img" />
-  <h1 class="name color-white mt-4">Peter Upapong</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Platform Lead </p>
+<a href="https://www.linkedin.com/in/peterupapong" className="a-link"><img src="./images/Upapong.jpg" alt='JPeter Upapong' class="profile-img" /></a>
+<a href="https://www.linkedin.com/in/peterupapong" className="a-link"><h1 class="name color-white mt-4">Peter Upapong</h1></a>
+<a href="https://www.linkedin.com/in/peterupapong" className="a-link"> <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Platform Lead </p></a>
 
   
 
@@ -332,18 +334,18 @@ const Home = () => {
 
 <div class="containe">
   
-  <img src="./images/Dale.jpg" alt='Stephanie Dale' class="profile-img" />
-  <h1 class="name color-white mt-4">Stephanie Dale</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Art Director, Designer </p>
+<a href="https://www.linkedin.com/in/stephaniedale4" className="a-link"> <img src="./images/Dale.jpg" alt='Stephanie Dale' class="profile-img" /></a>
+<a href="https://www.linkedin.com/in/stephaniedale4" className="a-link"> <h1 class="name color-white mt-4">Stephanie Dale</h1></a>
+<a href="https://www.linkedin.com/in/stephaniedale4" className="a-link"> <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Art Director, Designer </p></a>
 
   
 
 </div>
 <div class="containe">
   
-  <img src="./images/Olaoluwa.jpeg" alt='Kay Morrison'  class="profile-img"/>
-  <h1 class="name color-white mt-4">Olaoluwa Fatolu</h1>
-  <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Full-Stack Developer </p>
+<a href="https://www.linkedin.com/in/olaoluwa-fatolu-0127311b5/" className="a-link"> <img src="./images/Olaoluwa.jpeg" alt='Kay Morrison'  class="profile-img"/></a>
+<a href="https://www.linkedin.com/in/olaoluwa-fatolu-0127311b5/" className="a-link"> <h1 class="name color-white mt-4">Olaoluwa Fatolu</h1></a>
+<a href="https://www.linkedin.com/in/olaoluwa-fatolu-0127311b5/" className="a-link"> <p class="description" style={{color: 'white', fontWeight:'lighter'}}> Full-Stack Developer </p></a>
 
   
 
