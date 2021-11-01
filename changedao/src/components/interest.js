@@ -3,7 +3,7 @@ import AlertDismissible from "./Alert"
 import { useState } from 'react';
 
 const Interest = () => {
-    const [show, setAlertShow] = useState(true);
+  
 
 
 
@@ -80,11 +80,11 @@ const Interest = () => {
           
      </div>
 
-   {!show &&  <AlertDismissible/>}  
+ 
 
    <div className='text-center'>
        
-  <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1'style={{ textAlign:'center'}} onClick={() => setAlertShow(true)}>
+  <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1'style={{ textAlign:'center'}}>
      Submit
     </Button>{' '} 
        </div>
