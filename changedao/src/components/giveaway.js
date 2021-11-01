@@ -171,8 +171,8 @@ No entries submitted after the deadline will be considered.
 
 
 <h3 className='text-white mt-5' style={{fontWeight:'bold'}}>Questions?</h3>
-<p className='text-white'>Reach out to us on Discord and a team member will </p>
-<p className='text-white'> assist you.</p>
+<p className='text-white format'>Reach out to us on Discord and a team member will </p>
+<p className='text-white format'> assist you.</p>
 
 
 </div >
@@ -218,7 +218,7 @@ No entries submitted after the deadline will be considered.
 
             <Form.Group as={Col} controlId="formGridEmail" className='mt-4'>
             <Form.Label className='text-white'>Other social media handles (please specify platform)</Form.Label>
-            <Form.Control type="text" placeholder="" name='otherSocialMediaHandle' required/>
+            <Form.Control type="text" placeholder="" name='otherSocialMediaHandle' />
             </Form.Group>
 
               

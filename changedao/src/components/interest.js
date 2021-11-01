@@ -1,7 +1,9 @@
 import { Navbar, Container, Row,Button,Col,Form }from 'react-bootstrap';
-
+import AlertDismissible from "./Alert"
+import { useState } from 'react';
 
 const Interest = () => {
+    const [show, setAlertShow] = useState(true);
 
 
 
@@ -39,7 +41,7 @@ const Interest = () => {
 
             <Form.Group as={Col} controlId="formGridEmail" className='mt-4'>
             <Form.Label className='text-white'>Other social media handles (please specify platform)</Form.Label>
-            <Form.Control type="text" placeholder="" name='SocialMediaHandle' required/>
+            <Form.Control type="text" placeholder="" name='SocialMediaHandle'/>
             </Form.Group>
 
               
@@ -61,7 +63,7 @@ const Interest = () => {
 
     
     <Form.Group  controlId="formGridEmail" className='mt-4'>
-            <Form.Label className='text-white'>How did you discover ChangeDao *</Form.Label>
+            <Form.Label className='text-white'>How did you discover ChangeDAO *</Form.Label>
             <Form.Control type="text" placeholder=""  name="How did you dicover ChangeDao" required/>
             </Form.Group>
 
@@ -78,12 +80,16 @@ const Interest = () => {
           
      </div>
 
+   {!show &&  <AlertDismissible/>}  
+
    <div className='text-center'>
        
-   <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1' style={{ textAlign:'center'}}>
+  <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1'style={{ textAlign:'center'}} onClick={() => setAlertShow(true)}>
      Submit
-    </Button>{' '}
+    </Button>{' '} 
        </div>
+
+    
      
 
     </Form>

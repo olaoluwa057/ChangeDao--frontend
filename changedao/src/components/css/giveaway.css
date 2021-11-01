@@ -86,6 +86,7 @@ text-align: center;
     flex-direction: column;
     background-color: #371E50;
     padding: 30px;
+    width: 600px;
  
   
 }
@@ -95,6 +96,7 @@ text-align: center;
     height: auto;
     padding-bottom: 30px;
     background-color: #371E50;
+    width: 600px;
    
     
 
@@ -193,6 +195,21 @@ text-align: center;
     height: 100%;
     align-self: center;
   }
+
+  .giv-box{
+  
+    width: auto;
+ 
+  
+}
+.giv-box2{
+
+    width: auto;
+   
+    
+
+}
+
 
   /****************************************************************************Section2************************************************************/
 

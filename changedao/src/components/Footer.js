@@ -75,8 +75,8 @@ return(
 
   <Stack direction="horizontal" gap={3}>
 <div className="color-white mt-5" style={{fontSize:'smaller'}}>© Copyright 2021 ChangeDAO LLC. All rights reserved.</div>
-<div className="color-white ms-auto mt-5" style={{fontSize:'smaller'}}>Privacy</div>
-<div className="color-white mt-5" style={{fontSize:'smaller'}}>Terms</div>
+{/*<div className="color-white ms-auto mt-5" style={{fontSize:'smaller'}}>Privacy</div>
+<div className="color-white mt-5" style={{fontSize:'smaller'}}>Terms</div>*/}
 </Stack>
  
 

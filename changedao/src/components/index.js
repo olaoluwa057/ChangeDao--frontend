@@ -360,7 +360,7 @@ const Home = () => {
 
  
           <p style={{fontSize:'30px', fontStyle:'italic', color:'white', textAlign:'center' ,marginTop:'20px'}}> Find us all on Discord!
-          <Button variant="outline-light" style={{marginLeft:'20px'}} >  <img src="./discord.png" style={{ width:'1.2rem'}} alt='Discord logo'></img></Button>{' '}
+          <Button variant="outline-light" style={{marginLeft:'20px'}} href="https://discord.gg/mHSnHctCAV" >  <img src="./discord.png" style={{ width:'1.2rem'}} alt='Discord logo'></img></Button>{' '}
           </p>
           
       </div>
