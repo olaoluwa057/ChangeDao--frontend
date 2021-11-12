@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, useLocation } from 'react-router-dom';
 import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveIn, MoveOut, Sticky, StickyIn, ZoomIn } from "react-scroll-motion";
 import Nav from './components/nav';
 import Index from './components/index';
@@ -25,7 +25,7 @@ function AppContainer() {
       <Switch>
    
         <Route path="/" exact component={Index} />
-        <Route path="/giveaway" component={Giveaway} />
+        <Route path="/contest" component={Giveaway} />
         <Route path="/interest" component={Interest}/>
      
  

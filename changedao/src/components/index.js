@@ -88,7 +88,7 @@ const Home = () => {
           and win one of the first editions of our Genesis NFT.
           </p>
           <div style={{width:'40%'}} className='mt-3'>
-          <NavLink to="/giveaway"> <Button variant="primary" className="btn-color mg-t btn1" style={{minWidth:'12vw'}}>  Get the Details   </Button>{' '}</NavLink>
+          <NavLink to="/contest"> <Button variant="primary" className="btn-color mg-t btn1" style={{minWidth:'12vw'}}>  Get the Details   </Button>{' '}</NavLink>
        
 
           </div>
@@ -224,7 +224,13 @@ const Home = () => {
        </div>
     </Stack>
 
+     {/***********************************************ChangeDao-Journey.png****************************************************/}
 
+
+
+<div>
+<img src='./ChangeDao-Journey.png' style={{ width:'100%'}} alt='ChangeDao-Journey'/>
+</div>
 
    
 
@@ -379,7 +385,7 @@ const Home = () => {
       
 
        <div  className='text-center mt-5'>
-          <NavLink to="/giveaway"> <Button variant="primary" className=" btn-color2 " size="lg" style={{ textAlign:'center'}}>  Get the Details   </Button>{' '}</NavLink>
+          <NavLink to="/contest"> <Button variant="primary" className=" btn-color2 " size="lg" style={{ textAlign:'center'}}>  Get the Details   </Button>{' '}</NavLink>
        
 
           </div>
