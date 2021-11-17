@@ -41,7 +41,7 @@ return(
         />
       </Navbar.Brand>
       <div style={{marginLeft:'25px'}}>
-      <NavLink to="/interest"><Button variant="outline-light" style={{width:'170px'}} className='btn-about'>Message Us</Button>{' '}</NavLink>
+      <a href="https://docs.changedao.org/" ><Button variant="outline-light" style={{width:'170px'}} className='btn-about'>About Us</Button>{' '}</a>
       </div>
   </div>
 

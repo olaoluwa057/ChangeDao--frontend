@@ -160,7 +160,7 @@ No entries submitted after the deadline will be considered.
 
 </div>
 
-<h3 className='text-white mt-5' style={{fontWeight:'bold'}}>STEP 3: Submit Your Story to ChangeDAO</h3>
+<h3 className='text-white mt-5' style={{fontWeight:'bold', }}>STEP 3: Submit Your Story to ChangeDAO</h3>
 <p className='text-white mt-5'>Complete and submit ChangeDAO's official contest form (see below)</p>
 
 <p className='visible'></p>
