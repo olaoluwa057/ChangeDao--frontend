@@ -44,18 +44,21 @@ const NavBar=  (props) => {
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="ms-auto">
       <Nav.Link href="#link">
-       <Button variant="primary" className="btn-color mr-3"  onClick={() => setModalShow(true)}>Get Email Updates</Button>{' '}
+       <Button variant="primary" className="btn-color mr-3" style={{height:'3rem'}}  onClick={() => setModalShow(true)}>Get Email Updates</Button>{' '}
       </Nav.Link>
       <MyVerticallyCenteredModal
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
         <Nav.Link href="https://discord.gg/mHSnHctCAV">
-       <Button variant="outline-light" >  <img src="./discord.png" style={{ width:'1.2rem'}} className="" alt='Discord logo'></img></Button>{' '}
+       <Button variant="outline-light" >  <img src="./discord.png" style={{ width:'2rem'}} className="" alt='Discord logo'></img></Button>{' '}
         
         </Nav.Link>
         <Nav.Link href="https://twitter.com/ChangeDAO">
-         <Button variant="outline-light" >  <img src="./twitter.png" style={{     width:'1.2rem'}} className="" alt='twitter logo'></img></Button>{' '}
+         <Button variant="outline-light" >  <img src="./twitter.png" style={{     width:'2rem'}} className="" alt='twitter logo'></img></Button>{' '}
+        </Nav.Link>
+        <Nav.Link href="https://docs.changedao.org/">
+         <Button variant="outline-light" >  <img src="./information.png" style={{     width:'2rem'}} className="" alt='information logo'></img></Button>{' '}
         </Nav.Link>
         
       </Nav>
