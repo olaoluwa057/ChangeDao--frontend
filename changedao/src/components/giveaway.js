@@ -261,7 +261,7 @@ No entries submitted after the deadline will be considered.
 
    <div className='text-center'>
        
-   <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1' style={{ textAlign:'center'}}>
+   <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1' style={{ textAlign:'center'}} disabled>
      Submit Your Story
     </Button>{' '}
        </div>

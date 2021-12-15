@@ -50,7 +50,7 @@ const NavBar=  (props) => {
         show={modalShow}
         onHide={() => setModalShow(false)}
       />
-        <Nav.Link href="https://discord.gg/mHSnHctCAV">
+        <Nav.Link href="https://discord.gg/ZYwfABgMZP">
        <Button variant="outline-light" >  <img src="./discord.png" style={{ width:'2rem'}} className="" alt='Discord logo'></img></Button>{' '}
         
         </Nav.Link>

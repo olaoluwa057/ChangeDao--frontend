@@ -84,7 +84,7 @@ const Interest = () => {
 
    <div className='text-center'>
        
-  <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1'style={{ textAlign:'center'}}>
+  <Button variant="primary" size="lg" type='submit' className='mt-5 giv-btn1'style={{ textAlign:'center'}} >
      Submit
     </Button>{' '} 
        </div>

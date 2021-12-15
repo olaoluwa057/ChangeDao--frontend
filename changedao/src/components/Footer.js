@@ -47,7 +47,7 @@ return(
 
   <div className='arrange '>
  <Button variant="primary"  style={{width:'200px'}} className='mt-3 btn-color ' onClick={() => setModalShow(true)} >Get Email Updates</Button>{' '}
-<Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1 ' href="https://discord.gg/mHSnHctCAV"> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Discord logo'></img>Discord</Button>{' '}
+<Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1 ' href="https://discord.gg/ZYwfABgMZP"> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Discord logo'></img>Discord</Button>{' '}
 <Button variant="outline-light" style={{width:'200px', whiteSpace:'nowrap'}} className='mb-6 nb btn-1 ' href="https://twitter.com/ChangeDAO" > <img src="./twitter.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Twitter logo'></img>Twitter</Button>{' '}
 
 </div>

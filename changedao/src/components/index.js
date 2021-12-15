@@ -5,12 +5,20 @@ import { Animator, ScrollContainer, ScrollPage, batch, Fade, FadeIn, Move, MoveI
  import Video from "./videos/vid.mp4"
  import "../components/css/landing.css"
  import { NavLink, useHistory } from 'react-router-dom';
+ import { useState } from 'react';
 
 
 
 import { ToastContainer,} from 'react-toastify';
 
 const Home = () => {
+
+ 
+
+ 
+
+
+ 
  
 
 
@@ -55,7 +63,7 @@ const Home = () => {
            
         </div>
         <div style={{marginTop:'3vh'}} className='center box'>
-       <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1" href="https://discord.gg/mHSnHctCAV">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
+       <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1" href="https://discord.gg/ZYwfABgMZP">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
         <Button variant="outline-light" style={{width:'17vw', whiteSpace:'nowrap'}} className="btn1" href="https://twitter.com/ChangeDAO">  <img src="./twitter.png"  style={{ width:'1.2rem',marginRight:'1vw'}} alt='twitter logo'></img>Twitter</Button>{' '}
         <NavLink to="/interest"> <Button variant="primary" className="btn-width btn-color" style={{width:'17vw', whiteSpace:'nowrap'}}>Message Us</Button>{' '}</NavLink>
    
@@ -88,7 +96,9 @@ const Home = () => {
           and win one of the first editions of our Genesis NFT.
           </p>
           <div style={{width:'40%'}} className='mt-3'>
-          <NavLink to="/contest"> <Button variant="primary" className="btn-color mg-t btn1" style={{minWidth:'12vw'}}>  Get the Details   </Button>{' '}</NavLink>
+          {/*<NavLink to="/contest"  disabled> */ }
+          <Button variant="primary" className="btn-color mg-t btn1" style={{minWidth:'12vw'}}  disabled>  Get the Details   </Button>{' '}
+          {/*</NavLink>*/}
        
 
           </div>
@@ -192,7 +202,7 @@ const Home = () => {
        <div className='section3' >
        <Row className="justify-content-md-center mx-auto" >
       <Col md="auto" >
-      <h4 className='text-styling'>Join Our Story On     <Button variant="outline-light" style={{width:'200px'}} href="https://discord.gg/mHSnHctCAV"> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Discord logo'></img>Discord</Button>{' '}</h4>
+      <h4 className='text-styling'>Join Our Story On     <Button variant="outline-light" style={{width:'200px'}} href="https://discord.gg/ZYwfABgMZP"> <img src="./discord.png" style={{ width:'1.2rem',marginRight:'1rem'}} alt='Discord logo'></img>Discord</Button>{' '}</h4>
       </Col>
       </Row>
        </div>
@@ -248,7 +258,7 @@ const Home = () => {
  <p style={{color:'white'}}>Changemakers are hand-selected and verified by our core team. They are artists, causes and curators that have a track-record of using NFTs as a force for change in the world</p>
 <p style={{color:'white'}}>Want to get involved? Connect with our team today.</p>
 <div>
-<Button variant="outline-light" style={{width:'13vw', whiteSpace:'nowrap'}} className="btn1 " href="https://discord.gg/mHSnHctCAV">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
+<Button variant="outline-light" style={{width:'13vw', whiteSpace:'nowrap'}} className="btn1 " href="https://discord.gg/ZYwfABgMZP">  <img src="./discord.png" alt='Discord logo'  style={{ width:'1.2rem',marginRight:'1vw'}} ></img>Discord</Button>{' '}
 <NavLink to="/interest"><Button variant="primary" className="btn-color mg-t " style={{minWidth:'13vw'}} >Message Us</Button>{' '}</NavLink>
 </div>
 </Stack>
@@ -366,7 +376,7 @@ const Home = () => {
 
  
           <p style={{fontSize:'30px', fontStyle:'italic', color:'white', textAlign:'center' ,marginTop:'20px'}}> Find us all on Discord!
-          <Button variant="outline-light" style={{marginLeft:'20px'}} href="https://discord.gg/mHSnHctCAV" >  <img src="./discord.png" style={{ width:'1.2rem'}} alt='Discord logo'></img></Button>{' '}
+          <Button variant="outline-light" style={{marginLeft:'20px'}} href="https://discord.gg/ZYwfABgMZP" >  <img src="./discord.png" style={{ width:'1.2rem'}} alt='Discord logo'></img></Button>{' '}
           </p>
           
       </div>
@@ -380,12 +390,14 @@ const Home = () => {
     <Row className="justify-content-md-center mx-auto" >
       <Col md="auto">
           <h4 className='text-styling'style={{fontWeight:'bold'}}>Share Your Story. Be the Change.</h4>
-          <p style={{fontSize:'25px', fontWeight:'lighter'}} className='color-white'>Participate in Seven Stories of Social Change</p>
+         {/* <p style={{fontSize:'25px', fontWeight:'lighter'}} className='color-white'>Participate in Seven Stories of Social Change</p>  */}
 
       
 
        <div  className='text-center mt-5'>
-          <NavLink to="/contest"> <Button variant="primary" className=" btn-color2 " size="lg" style={{ textAlign:'center'}}>  Get the Details   </Button>{' '}</NavLink>
+         {/*   <NavLink to="/contest"> */}
+         <Button variant="primary" className=" btn-color2 " size="lg" style={{ textAlign:'center'}} href="https://discord.gg/ZYwfABgMZP"> Join our Discord  </Button>{' '}
+         {/*  </NavLink> */}
        
 
           </div>
